@@ -1,0 +1,377 @@
+<script src="./support.js"></script>
+<style>
+  :root{
+    --teal:#1D4242;
+    --teal-deep:#0F2828;
+    --terracotta:#C1683A;
+    --terracotta-light:#E08B5C;
+    --cream:#F3E8D6;
+    --cream-2:#FBF6EC;
+    --ink:#20201C;
+    --line:rgba(29,66,66,0.14);
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Poppins', 'Segoe UI', ui-sans-serif, system-ui, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--cream);}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 32px;}
+  a{color:inherit;}
+
+  /* ===== NAV ===== */
+  .nav{position:sticky;top:0;z-index:20;background:rgba(243,232,214,0.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;}
+  .mark{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:0.02em;font-size:1.05rem;color:var(--teal);}
+  .mark .dot{width:34px;height:34px;border-radius:9px;background:var(--teal);color:var(--cream);display:flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:800;transform:rotate(-4deg);}
+  .navlinks{display:flex;gap:36px;font-size:0.92rem;font-weight:600;color:var(--teal);}
+  .navcta{background:var(--terracotta);color:var(--cream-2);padding:11px 22px;border-radius:100px;font-weight:700;font-size:0.88rem;text-decoration:none;}
+
+  /* ===== HERO ===== */
+  .hero{position:relative;overflow:hidden;padding:96px 0 0;}
+  .hero-bg{position:absolute;inset:0;background:
+    radial-gradient(600px 380px at 88% 8%, rgba(193,104,58,0.20), transparent 65%),
+    radial-gradient(500px 500px at 4% 90%, rgba(29,66,66,0.10), transparent 60%);
+    pointer-events:none;}
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr 0.85fr;gap:56px;align-items:end;}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:0.75rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--terracotta);margin-bottom:22px;}
+  .eyebrow::before{content:"";width:26px;height:2px;background:var(--terracotta);}
+  .hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(2.6rem,4.4vw,4.3rem);line-height:1.03;letter-spacing:-0.01em;color:var(--teal-deep);margin:0 0 26px;}
+  .hero h1 em{font-style:italic;color:var(--terracotta);}
+  .hero p.lede{font-size:1.15rem;line-height:1.6;color:#3c463f;max-width:46ch;margin:0 0 34px;}
+  .hero-actions{display:flex;align-items:center;gap:22px;}
+  .btn{display:inline-flex;align-items:center;gap:10px;background:var(--teal);color:var(--cream-2);font-weight:700;font-size:0.98rem;padding:16px 30px;border-radius:100px;text-decoration:none;box-shadow:0 10px 26px -12px rgba(15,40,40,0.55);}
+  .btn.alt{background:transparent;color:var(--teal-deep);box-shadow:none;padding:16px 6px;border-bottom:2px solid var(--teal-deep);border-radius:0;}
+  .hero-stats{display:flex;gap:30px;margin-top:56px;padding-top:26px;border-top:1px solid var(--line);}
+  .hero-stats div{display:flex;flex-direction:column;}
+  .hero-stats b{font-family:var(--serif);font-size:1.7rem;color:var(--teal-deep);}
+  .hero-stats span{font-size:0.78rem;color:#5b675f;font-weight:600;}
+
+  .hero-card{background:var(--teal-deep);border-radius:28px;padding:34px 30px;color:var(--cream);position:relative;overflow:hidden;margin-bottom:8px;}
+  .hero-card::after{content:"";position:absolute;right:-40px;top:-40px;width:170px;height:170px;border-radius:50%;background:radial-gradient(circle,rgba(193,104,58,0.5),transparent 70%);}
+  .hero-card .tag{font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--terracotta-light);font-weight:700;}
+  .hero-card h3{font-family:var(--serif);font-size:1.5rem;margin:14px 0 10px;line-height:1.2;}
+  .hero-card p{font-size:0.92rem;line-height:1.55;color:rgba(243,232,214,0.82);margin:0 0 18px;}
+  .hero-card .badge{display:inline-flex;gap:8px;align-items:center;background:rgba(243,232,214,0.1);border:1px solid rgba(243,232,214,0.22);padding:8px 14px;border-radius:100px;font-size:0.78rem;font-weight:700;}
+
+  /* ===== MARQUEE ===== */
+  .marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--cream-2);margin-top:88px;padding:18px 0;overflow:hidden;white-space:nowrap;}
+  .marquee span{display:inline-block;padding:0 34px;font-family:var(--serif);font-style:italic;font-size:1rem;color:var(--teal);opacity:0.7;}
+  .marquee span::after{content:"—";margin-left:34px;color:var(--terracotta);opacity:0.6;}
+
+  /* ===== ABOUT ===== */
+  .section{padding:112px 0;}
+  .section-head{display:grid;grid-template-columns:0.4fr 0.6fr;gap:40px;margin-bottom:56px;align-items:end;}
+  .kicker{font-size:0.75rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--terracotta);}
+  .section-head h2{font-family:var(--serif);font-size:clamp(1.9rem,2.6vw,2.7rem);color:var(--teal-deep);margin:12px 0 0;line-height:1.1;}
+  .section-head p{font-size:1.02rem;color:#3c463f;line-height:1.6;margin:0;}
+
+  .about-grid{display:grid;grid-template-columns:0.85fr 1.15fr;gap:64px;align-items:start;}
+  .about-photo{aspect-ratio:4/5;border-radius:26px;background:
+    linear-gradient(155deg, var(--teal) 0%, var(--teal-deep) 60%),
+    radial-gradient(circle at 30% 20%, rgba(193,104,58,0.35), transparent 55%);
+    position:relative;overflow:hidden;box-shadow:0 30px 60px -30px rgba(15,40,40,0.5);}
+  .about-photo .frame-label{position:absolute;left:20px;bottom:20px;color:var(--cream);font-size:0.78rem;font-weight:700;background:rgba(15,40,40,0.35);backdrop-filter:blur(6px);padding:8px 14px;border-radius:100px;border:1px solid rgba(243,232,214,0.25);}
+  .about-photo .ring{position:absolute;width:220px;height:220px;border:1px solid rgba(243,232,214,0.25);border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%);}
+  .about-photo .ring.r2{width:300px;height:300px;}
+  .medal{position:absolute;top:22px;right:22px;background:var(--terracotta);color:var(--cream-2);width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;font-weight:800;font-size:0.62rem;line-height:1.1;text-align:center;box-shadow:0 12px 24px -10px rgba(193,104,58,0.7);transform:rotate(8deg);}
+
+  .about-copy p{font-size:1.04rem;line-height:1.75;color:#31392f;margin:0 0 20px;}
+  .about-copy p:first-of-type::first-letter{font-family:var(--serif);font-size:3.4rem;float:left;line-height:0.8;padding:6px 10px 0 0;color:var(--terracotta);font-weight:700;}
+  .pull{font-family:var(--serif);font-style:italic;font-size:1.3rem;color:var(--teal-deep);border-left:3px solid var(--terracotta);padding-left:20px;margin:30px 0;}
+  .about-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+  .about-tags span{font-size:0.78rem;font-weight:700;color:var(--teal);background:var(--cream-2);border:1px solid var(--line);padding:8px 16px;border-radius:100px;}
+
+  /* ===== METHOD ===== */
+  .method-section{background:var(--teal-deep);color:var(--cream);}
+  .method-section .kicker{color:var(--terracotta-light);}
+  .method-section .section-head h2{color:var(--cream);}
+  .method-section .section-head p{color:rgba(243,232,214,0.75);}
+  .method-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(243,232,214,0.14);border-radius:22px;overflow:hidden;}
+  .method-card{background:var(--teal-deep);padding:38px 32px;position:relative;}
+  .method-card .num{font-family:var(--serif);font-size:0.85rem;color:var(--terracotta-light);opacity:0.8;}
+  .method-card h3{font-family:var(--serif);font-size:1.3rem;margin:18px 0 12px;font-weight:700;}
+  .method-card p{font-size:0.92rem;line-height:1.6;color:rgba(243,232,214,0.72);margin:0;}
+
+  /* ===== PRICING ===== */
+  .pricing-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
+  .price-card{background:var(--cream-2);border:1px solid var(--line);border-radius:22px;padding:30px 26px;display:flex;flex-direction:column;gap:6px;position:relative;transition:none;}
+  .price-card.feat{background:var(--teal-deep);color:var(--cream);border:none;}
+  .price-card.feat .price-detail{color:rgba(243,232,214,0.65);}
+  .price-card .flag{position:absolute;top:-12px;right:22px;background:var(--terracotta);color:var(--cream-2);font-size:0.68rem;font-weight:800;padding:6px 12px;border-radius:100px;letter-spacing:0.04em;}
+  .price-card h4{margin:8px 0 2px;font-size:0.95rem;font-weight:700;color:inherit;opacity:0.85;text-transform:uppercase;letter-spacing:0.04em;}
+  .price-card .price{font-family:var(--serif);font-weight:700;font-size:2.1rem;color:var(--terracotta);}
+  .price-card.feat .price{color:var(--terracotta-light);}
+  .price-card .price-detail{font-size:0.82rem;color:#5b675f;}
+  .price-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:18px;}
+  .pricing-note{margin-top:34px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;background:var(--cream-2);border:1px solid var(--line);border-radius:22px;padding:26px 32px;}
+  .pricing-note p{margin:0;font-size:0.98rem;color:#3c463f;max-width:52ch;}
+
+  /* ===== TESTIMONIALS ===== */
+  .testi-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+  .testi-card{background:var(--cream-2);border:1px solid var(--line);border-radius:26px;padding:38px;position:relative;}
+  .testi-card .quote-mark{font-family:var(--serif);font-size:4rem;color:var(--terracotta);opacity:0.35;line-height:0.5;display:block;margin-bottom:10px;}
+  .testi-card p.quote{font-family:var(--serif);font-size:1.14rem;line-height:1.6;color:var(--teal-deep);margin:0 0 24px;}
+  .testi-person{display:flex;align-items:center;gap:14px;}
+  .testi-avatar{width:46px;height:46px;border-radius:50%;background:linear-gradient(155deg,var(--teal),var(--terracotta));flex-shrink:0;}
+  .testi-name{font-weight:700;font-size:0.92rem;color:var(--teal-deep);}
+  .testi-meta{font-size:0.78rem;color:#5b675f;}
+  .testi-stat{margin-top:22px;display:flex;gap:14px;align-items:center;background:var(--cream);border-radius:16px;padding:14px 18px;}
+  .testi-stat .from{font-family:var(--serif);font-size:1.15rem;color:#8a8a80;text-decoration:line-through;}
+  .testi-stat .arrow{color:var(--terracotta);}
+  .testi-stat .to{font-family:var(--serif);font-size:1.3rem;font-weight:700;color:var(--teal-deep);}
+  .testi-stat .stat-label{font-size:0.72rem;color:#5b675f;font-weight:600;margin-left:auto;text-align:right;}
+
+  /* ===== FAQ ===== */
+  .faq-wrap{display:grid;grid-template-columns:0.4fr 0.6fr;gap:56px;}
+  .faq-list{display:flex;flex-direction:column;}
+  .faq-item{border-bottom:1px solid var(--line);padding:26px 0;display:grid;grid-template-columns:auto 1fr;gap:18px;}
+  .faq-item .qn{font-family:var(--serif);color:var(--terracotta);font-size:1rem;}
+  .faq-item h4{margin:0 0 8px;font-size:1.06rem;color:var(--teal-deep);}
+  .faq-item p{margin:0;font-size:0.94rem;color:#3c463f;line-height:1.6;max-width:56ch;}
+
+  /* ===== CONTACT ===== */
+  .contact{background:var(--terracotta);border-radius:32px;padding:64px 60px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center;position:relative;overflow:hidden;}
+  .contact::after{content:"";position:absolute;left:-60px;bottom:-90px;width:260px;height:260px;border-radius:50%;background:rgba(243,232,214,0.14);}
+  .contact h2{font-family:var(--serif);color:var(--cream-2);font-size:clamp(1.9rem,3vw,2.6rem);margin:0 0 16px;line-height:1.1;}
+  .contact p{color:rgba(251,246,236,0.88);font-size:1.02rem;line-height:1.6;margin:0;max-width:44ch;}
+  .contact-cta{background:var(--cream-2);border-radius:22px;padding:30px;text-align:center;}
+  .contact-cta .ig{font-weight:700;color:var(--teal-deep);font-size:0.95rem;margin-bottom:16px;}
+  .contact-cta .btn{background:var(--teal-deep);width:100%;justify-content:center;box-shadow:none;}
+
+  /* ===== FOOTER ===== */
+  footer{padding:56px 0 40px;}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;border-top:1px solid var(--line);padding-top:28px;}
+  footer .foot-links{display:flex;gap:26px;font-size:0.85rem;color:var(--teal);font-weight:600;}
+  footer small{color:#5b675f;font-size:0.8rem;}
+</style>
+
+<body>
+
+  <nav class="nav">
+    <div class="wrap">
+      <div class="mark"><span class="dot">CP</span> COACH CHAMBERS</div>
+      <div class="navlinks">
+        <span>Über mich</span><span>Methode</span><span>Angebot</span><span>Stimmen</span><span>FAQ</span>
+      </div>
+      <a class="navcta">Schreib „START"</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">Hybrid Training · Schwerte</div>
+        <h1>Stärke, Ausdauer<br>und ein Kopf, der<br><em>mitzieht.</em></h1>
+        <p class="lede">Kein Sixpack-Theater. Hybrid Training aus Laufen, Kraft und Mobility, mit einer Ernährung, die zu deinem Training passt, nicht dagegen arbeitet.</p>
+        <div class="hero-actions">
+          <a class="btn">Schreib mir „START" →</a>
+          <a class="btn alt">Kostenloses Erstgespräch</a>
+        </div>
+        <div class="hero-stats">
+          <div><b>2017</b><span>Coaching seit</span></div>
+          <div><b>7</b><span>Angebote, ein Weg</span></div>
+          <div><b>1:1</b><span>Persönliche Betreuung</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="hero-card">
+          <div class="tag">Von der Matte</div>
+          <h3>Weltmeister, BJJ Novice, Las Vegas</h3>
+          <p>Feste Gewichtsklassen im Wettkampf haben mich gezwungen, meinen Körper wirklich zu verstehen. Genau dieses Wissen gebe ich seit 2017 weiter.</p>
+          <div class="badge">🥋 Grow with the Flow</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <span>Hybrid Training</span><span>Ernährungscoaching</span><span>Personal Training Schwerte</span><span>Online-Coaching per App</span><span>Für alle ab 30</span><span>Echt statt überinszeniert</span>
+  </div>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="kicker">Über mich</span></div>
+        <div><h2>Sport war nie eine Phase. Er war der Kompass.</h2></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo">
+          <div class="ring"></div><div class="ring r2"></div>
+          <div class="medal">🥇<br>WM<br>Vegas</div>
+          <div class="frame-label">Coach Chambers, 35</div>
+        </div>
+        <div class="about-copy">
+          <p>Als kleiner Junge habe ich mit Fußball und Basketball angefangen. Mit 16 fand ich meine Passion im Krafttraining und Kampfsport: Ninjitsu, MMA und Brazilian Jiu-Jitsu begleiten mich seither. BJJ ist bis heute meine Hauptsportart, ich bin aktiv im Wettkampf angetreten und wurde Weltmeister der BJJ Novice Meisterschaften in Las Vegas.</p>
+          <p class="pull">„Feste Gewichtsklassen im BJJ haben mich gezwungen, meinen Körper wirklich zu verstehen. Genau dieses Wissen gebe ich heute weiter."</p>
+          <p>2017 habe ich angefangen, Freunde und Teamkollegen zu coachen. Nicht für Geld, einfach nur, um Menschen gesünder zu machen. Genau daraus ist CP Coach Chambers entstanden. Heute steht das große Ganze im Fokus: Hybrid Training, eine Verbindung aus Stärke, Ausdauer, Beweglichkeit und Erholung, für echte Performance auf der Matte, im Training und im Alltag.</p>
+          <div class="about-tags">
+            <span>BJJ Weltmeister</span><span>Coaching seit 2017</span><span>Hybrid Training</span><span>Ernährungscoaching</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section method-section">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="kicker">Die Methode</span></div>
+        <div><h2>Drei Wege, ein System.</h2><p>Egal wo du startest, alles läuft auf dasselbe Ziel zu: nachhaltige Performance statt kurzfristiger Ästhetik.</p></div>
+      </div>
+      <div class="method-grid">
+        <div class="method-card">
+          <span class="num">01</span>
+          <h3>Online-Coaching</h3>
+          <p>Individueller Trainingsplan über die eigene App, abgestimmt auf Laufen, Kraft und Mobility. Der ortsunabhängige Einstieg.</p>
+        </div>
+        <div class="method-card">
+          <span class="num">02</span>
+          <h3>Personal Training</h3>
+          <p>1:1 Training im Umkreis Schwerte, direkt vor Ort begleitet. Für alle, die engmaschige persönliche Betreuung wollen.</p>
+        </div>
+        <div class="method-card">
+          <span class="num">03</span>
+          <h3>Ernährungscoaching</h3>
+          <p>Kein Standardplan. Ein Lauftag braucht ein anderes Timing als ein schwerer Krafttag, dein Plan berücksichtigt das.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="kicker">Angebot & Preise</span></div>
+        <div><h2>Wähl deinen Einstieg.</h2></div>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h4>Erstgespräch</h4>
+          <div class="price">0&nbsp;€</div>
+          <div class="price-detail">Einmalig, unverbindlich</div>
+        </div>
+        <div class="price-card feat">
+          <div class="flag">Beliebt</div>
+          <h4>FlowClub Member</h4>
+          <div class="price">10&nbsp;€</div>
+          <div class="price-detail">pro Monat, laufend</div>
+        </div>
+        <div class="price-card">
+          <h4>10 Tage Ernährung</h4>
+          <div class="price">25&nbsp;€</div>
+          <div class="price-detail">Einmalig</div>
+        </div>
+        <div class="price-card">
+          <h4>1 Monat Komplett</h4>
+          <div class="price">120&nbsp;€</div>
+          <div class="price-detail">Sport & Ernährung</div>
+        </div>
+      </div>
+
+      <div class="price-row">
+        <div class="price-card">
+          <h4>2 Monate Komplett</h4>
+          <div class="price">100&nbsp;€<span style="font-size:0.95rem;">/Mo</span></div>
+          <div class="price-detail">200&nbsp;€ gesamt</div>
+        </div>
+        <div class="price-card">
+          <h4>3 Monate Komplett</h4>
+          <div class="price">90&nbsp;€<span style="font-size:0.95rem;">/Mo</span></div>
+          <div class="price-detail">270&nbsp;€ gesamt</div>
+        </div>
+        <div class="price-card">
+          <h4>6 Monate Komplett</h4>
+          <div class="price">80&nbsp;€<span style="font-size:0.95rem;">/Mo</span></div>
+          <div class="price-detail">480&nbsp;€ gesamt, bester Preis</div>
+        </div>
+      </div>
+
+      <div class="pricing-note">
+        <p>Unsicher, was zu dir passt? Im kostenlosen Erstgespräch schauen wir gemeinsam, welches Paket zu deinem Ziel und Alltag passt.</p>
+        <a class="btn">Erstgespräch sichern →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials" style="padding-top:0;">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="kicker">Stimmen aus dem Coaching</span></div>
+        <div><h2>Was Klientinnen wirklich sagen.</h2></div>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <span class="quote-mark">"</span>
+          <p class="quote">Ich bin total zufrieden mit dem Ernährungsprogramm. Sogar über die Feiertage kam ich gut klar, sogar mit Dattel-Zucker-Weihnachtsplätzchen war das kein Problem. Ich merke deutlich mehr Kraft und Spannung im Yoga und beim täglichen Heben und Tragen. Das hätte ich ohne deine Hilfe nicht geschafft!</p>
+          <div class="testi-person">
+            <div class="testi-avatar"></div>
+            <div><div class="testi-name">Klientin, Ernährungscoaching</div><div class="testi-meta">Per WhatsApp, unaufgefordert</div></div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <span class="quote-mark">"</span>
+          <p class="quote">Von Frust zu stolz: ihre Transformation. Fünf Monate Coaching, konsequent durchgezogen, stärker, leichter, selbstbewusster.</p>
+          <div class="testi-person">
+            <div class="testi-avatar"></div>
+            <div><div class="testi-name">Klientin, Hybrid Training</div><div class="testi-meta">5 Monate Coaching · Lünen</div></div>
+          </div>
+          <div class="testi-stat">
+            <span class="from">72 kg</span><span class="arrow">→</span><span class="to">58 kg</span>
+            <span class="stat-label">stärker · leichter<br>selbstbewusster</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="faq-wrap">
+        <div>
+          <span class="kicker">Häufige Fragen</span>
+          <h2 style="font-family:var(--serif);font-size:2rem;color:var(--teal-deep);margin:12px 0 0;">Noch unsicher?</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <span class="qn">01</span>
+            <div><h4>Was ist Hybrid Training?</h4><p>Hybrid Training kombiniert Laufen, Krafttraining und Mobility in einem gemeinsamen System, statt sie getrennt zu betrachten. Trainiert wird zuhause oder im Gym, mit oder ohne Geräte.</p></div>
+          </div>
+          <div class="faq-item">
+            <span class="qn">02</span>
+            <div><h4>Für wen eignet sich das?</h4><p>Für alle ab 30, die fit werden und fit bleiben wollen, unabhängig vom aktuellen Trainingslevel. Fokus liegt auf nachhaltigem Fortschritt, nicht auf Extremsport.</p></div>
+          </div>
+          <div class="faq-item">
+            <span class="qn">03</span>
+            <div><h4>Online-Coaching oder Personal Training?</h4><p>Online-Coaching läuft über eine App und ist der günstigere, ortsunabhängige Einstieg. Personal Training findet 1:1 vor Ort im Umkreis Schwerte statt.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;" id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <div>
+          <h2>Bereit für den ersten Schritt?</h2>
+          <p>Schreib mir auf Instagram einfach „START". Im kostenlosen Erstgespräch schauen wir, was zu dir passt.</p>
+        </div>
+        <div class="contact-cta">
+          <div class="ig">@chambers.body.performance</div>
+          <a class="btn">Schreib mir „START"</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="mark"><span class="dot">CP</span> COACH CHAMBERS</div>
+      <div class="foot-links"><span>Über mich</span><span>Angebot</span><span>Kontakt</span><span>Instagram</span></div>
+      <small>© 2026 Coach Chambers</small>
+    </div>
+  </footer>
+
+</body>
