@@ -21,10 +21,9 @@
   /* ===== NAV ===== */
   .nav{position:sticky;top:0;z-index:20;background:rgba(243,232,214,0.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
   .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:78px;}
-  .mark{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:0.02em;font-size:1.05rem;color:var(--teal);}
-  .mark .dot{width:34px;height:34px;border-radius:9px;background:var(--teal);color:var(--cream);display:flex;align-items:center;justify-content:center;font-size:0.85rem;font-weight:800;transform:rotate(-4deg);}
+  .mark img{height:46px;width:auto;}
   .navlinks{display:flex;gap:36px;font-size:0.92rem;font-weight:600;color:var(--teal);}
-  .navcta{background:var(--terracotta);color:var(--cream-2);padding:11px 22px;border-radius:100px;font-weight:700;font-size:0.88rem;text-decoration:none;}
+  .navcta{background:var(--terracotta);color:var(--cream-2);padding:11px 22px;border-radius:100px;font-weight:700;font-size:0.88rem;text-decoration:none;white-space:nowrap;}
 
   /* ===== HERO ===== */
   .hero{position:relative;overflow:hidden;padding:96px 0 0;}
@@ -92,6 +91,38 @@
   .method-card h3{font-family:var(--serif);font-size:1.3rem;margin:18px 0 12px;font-weight:700;}
   .method-card p{font-size:0.92rem;line-height:1.6;color:rgba(243,232,214,0.72);margin:0;}
 
+  /* ===== APP ===== */
+  .app-wrap{display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;align-items:center;}
+  .app-copy h2{font-family:var(--serif);font-size:clamp(1.9rem,2.6vw,2.6rem);color:var(--teal-deep);margin:12px 0 18px;line-height:1.1;}
+  .app-copy p{font-size:1.04rem;line-height:1.7;color:#3c463f;margin:0 0 26px;max-width:46ch;}
+  .app-feats{display:flex;flex-direction:column;gap:14px;margin-bottom:30px;}
+  .app-feat{display:flex;gap:14px;align-items:flex-start;}
+  .app-feat .tick{width:26px;height:26px;border-radius:50%;background:var(--terracotta);color:var(--cream-2);display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:800;flex-shrink:0;margin-top:2px;}
+  .app-feat b{display:block;font-size:0.98rem;color:var(--teal-deep);}
+  .app-feat span{font-size:0.9rem;color:#5b675f;}
+  .app-shots{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:end;}
+  .phone{border-radius:26px;background:#111;padding:8px;box-shadow:0 24px 50px -24px rgba(15,40,40,0.55);}
+  .phone.mid{transform:translateY(-26px);}
+  .phone .screen{border-radius:20px;overflow:hidden;background:#1b1b1b;aspect-ratio:9/19.5;display:flex;flex-direction:column;padding:16px 12px;gap:10px;}
+  .phone .sbar{display:flex;justify-content:space-between;font-size:0.5rem;color:#8b8b8b;padding:0 4px;}
+  .phone .ttl{color:#fff;font-weight:700;font-size:0.72rem;}
+  .phone .row{background:#262626;border-radius:8px;padding:8px 9px;display:flex;justify-content:space-between;align-items:center;}
+  .phone .row b{color:#fff;font-size:0.56rem;font-weight:600;display:block;}
+  .phone .row span{color:#7d7d7d;font-size:0.48rem;}
+  .phone .play{width:14px;height:14px;border-radius:50%;background:#3ee0c0;flex-shrink:0;}
+  .phone .ring-timer{margin:auto;width:96px;height:96px;border-radius:50%;border:5px solid #3ee0c0;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:0.85rem;}
+  .phone .pill{background:#3ee0c0;color:#0b2b25;font-size:0.52rem;font-weight:700;text-align:center;padding:6px;border-radius:100px;}
+  .phone .stat3{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;}
+  .phone .stat3 div{background:#262626;border-radius:8px;padding:7px 4px;text-align:center;}
+  .phone .stat3 b{color:#fff;font-size:0.6rem;display:block;}
+  .phone .stat3 span{color:#7d7d7d;font-size:0.42rem;}
+  .phone .macro{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;}
+  .phone .bar{height:4px;border-radius:100px;background:#3a3a3a;overflow:hidden;}
+  .phone .bar i{display:block;height:100%;}
+  .app-caps{display:flex;gap:10px;justify-content:center;margin-top:26px;flex-wrap:wrap;}
+  .app-caps span{background:var(--cream-2);border:1px solid var(--line);border-radius:100px;padding:9px 18px;font-size:0.8rem;font-weight:700;color:var(--teal-deep);}
+  .powered{text-align:center;margin-top:20px;font-size:0.78rem;color:#5b675f;letter-spacing:0.06em;}
+
   /* ===== PRICING ===== */
   .pricing-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;}
   .price-card{background:var(--cream-2);border:1px solid var(--line);border-radius:22px;padding:30px 26px;display:flex;flex-direction:column;gap:6px;position:relative;transition:none;}
@@ -149,11 +180,11 @@
 
   <nav class="nav">
     <div class="wrap">
-      <div class="mark"><span class="dot">CP</span> COACH CHAMBERS</div>
+      <div class="mark"><img src="logo-teal.png" alt="CP Coach Chambers"></div>
       <div class="navlinks">
-        <span>Über mich</span><span>Methode</span><span>Angebot</span><span>Stimmen</span><span>FAQ</span>
+        <span>Über mich</span><span>Methode</span><span>App</span><span>Angebot</span><span>Stimmen</span><span>FAQ</span>
       </div>
-      <a class="navcta">Schreib „START"</a>
+      <a class="navcta">Erstgespräch, kostenlos</a>
     </div>
   </nav>
 
@@ -162,22 +193,22 @@
     <div class="wrap">
       <div>
         <div class="eyebrow">Hybrid Training · Schwerte</div>
-        <h1>Stärke, Ausdauer<br>und ein Kopf, der<br><em>mitzieht.</em></h1>
-        <p class="lede">Kein Sixpack-Theater. Hybrid Training aus Laufen, Kraft und Mobility, mit einer Ernährung, die zu deinem Training passt, nicht dagegen arbeitet.</p>
+        <h1>Stark werden.<br>Fit bleiben.<br><em>Ohne Schnellschuss.</em></h1>
+        <p class="lede">Hybrid Training aus Laufen, Kraft und Mobility, kombiniert mit einer Ernährung, die zu deinem Training passt. Für alle ab 30, die es diesmal wirklich durchziehen wollen.</p>
         <div class="hero-actions">
-          <a class="btn">Schreib mir „START" →</a>
-          <a class="btn alt">Kostenloses Erstgespräch</a>
+          <a class="btn">Kostenloses Erstgespräch →</a>
+          <a class="btn alt">Angebot ansehen</a>
         </div>
         <div class="hero-stats">
           <div><b>2017</b><span>Coaching seit</span></div>
-          <div><b>7</b><span>Angebote, ein Weg</span></div>
           <div><b>1:1</b><span>Persönliche Betreuung</span></div>
+          <div><b>App</b><span>Training & Ernährung</span></div>
         </div>
       </div>
       <div>
         <div class="hero-card">
           <div class="tag">Von der Matte</div>
-          <h3>Weltmeister, BJJ Novice, Las Vegas</h3>
+          <h3>Dritter Platz, BJJ Novice Weltmeisterschaft, Las Vegas</h3>
           <p>Feste Gewichtsklassen im Wettkampf haben mich gezwungen, meinen Körper wirklich zu verstehen. Genau dieses Wissen gebe ich seit 2017 weiter.</p>
           <div class="badge">🥋 Grow with the Flow</div>
         </div>
@@ -198,15 +229,15 @@
       <div class="about-grid">
         <div class="about-photo">
           <div class="ring"></div><div class="ring r2"></div>
-          <div class="medal">🥇<br>WM<br>Vegas</div>
+          <div class="medal">🥉<br>WM<br>Vegas</div>
           <div class="frame-label">Coach Chambers, 35</div>
         </div>
         <div class="about-copy">
-          <p>Als kleiner Junge habe ich mit Fußball und Basketball angefangen. Mit 16 fand ich meine Passion im Krafttraining und Kampfsport: Ninjitsu, MMA und Brazilian Jiu-Jitsu begleiten mich seither. BJJ ist bis heute meine Hauptsportart, ich bin aktiv im Wettkampf angetreten und wurde Weltmeister der BJJ Novice Meisterschaften in Las Vegas.</p>
+          <p>Als kleiner Junge habe ich mit Fußball und Basketball angefangen. Mit 16 fand ich meine Passion im Krafttraining und Kampfsport: Ninjitsu, MMA und Brazilian Jiu-Jitsu begleiten mich seither. BJJ ist bis heute meine Hauptsportart, ich bin aktiv im Wettkampf angetreten und habe bei den BJJ Novice Weltmeisterschaften in Las Vegas den dritten Platz geholt.</p>
           <p class="pull">„Feste Gewichtsklassen im BJJ haben mich gezwungen, meinen Körper wirklich zu verstehen. Genau dieses Wissen gebe ich heute weiter."</p>
-          <p>2017 habe ich angefangen, Freunde und Teamkollegen zu coachen. Nicht für Geld, einfach nur, um Menschen gesünder zu machen. Genau daraus ist CP Coach Chambers entstanden. Heute steht das große Ganze im Fokus: Hybrid Training, eine Verbindung aus Stärke, Ausdauer, Beweglichkeit und Erholung, für echte Performance auf der Matte, im Training und im Alltag.</p>
+          <p>Zwei Jahre Crossfit haben mir gezeigt, wie sich Kraft und Ausdauer wirklich verbinden lassen. 2017 habe ich angefangen, Freunde und Teamkollegen zu coachen. Nicht für Geld, einfach nur, um Menschen gesünder zu machen. Genau daraus ist CP Coach Chambers entstanden. Heute steht das große Ganze im Fokus: Hybrid Training, eine Verbindung aus Stärke, Ausdauer, Beweglichkeit und Erholung, für echte Performance auf der Matte, im Training und im Alltag.</p>
           <div class="about-tags">
-            <span>BJJ Weltmeister</span><span>Coaching seit 2017</span><span>Hybrid Training</span><span>Ernährungscoaching</span>
+            <span>3. Platz BJJ WM</span><span>2 Jahre Crossfit</span><span>Coaching seit 2017</span><span>Hybrid Training</span><span>Ernährungscoaching</span>
           </div>
         </div>
       </div>
@@ -239,21 +270,81 @@
     </div>
   </section>
 
+  <section class="section" id="app" style="background:var(--cream-2);">
+    <div class="wrap">
+      <div class="app-wrap">
+        <div class="app-copy">
+          <span class="kicker">Deine Coaching-App</span>
+          <h2>Dein Plan liegt jeden Tag in deiner Tasche.</h2>
+          <p>Training und Ernährung laufen über eine App. Du siehst dein Workout auf einen Blick, trackst jeden Satz und behältst deine Ziele im Auge. Ich sehe deine Fortschritte mit und passe an, wenn es nötig ist.</p>
+          <div class="app-feats">
+            <div class="app-feat"><span class="tick">✓</span><div><b>Dein Workout auf einen Blick</b><span>Übungen, Sätze, Ablauf, alles vorbereitet.</span></div></div>
+            <div class="app-feat"><span class="tick">✓</span><div><b>Integrierte Timer-Funktion</b><span>Satzpausen und Intervalle laufen automatisch mit.</span></div></div>
+            <div class="app-feat"><span class="tick">✓</span><div><b>Performance-Monitoring</b><span>Gewicht, Wiederholungen und RPE über die Wochen.</span></div></div>
+            <div class="app-feat"><span class="tick">✓</span><div><b>Ernährungstagebuch und über 300 Rezepte</b><span>Kalorien und Makros ohne Zettelwirtschaft.</span></div></div>
+          </div>
+          <a class="btn">Erstgespräch sichern →</a>
+        </div>
+        <div>
+          <div class="app-shots">
+            <div class="phone">
+              <div class="screen">
+                <div class="sbar"><span>15:00</span><span>69</span></div>
+                <div class="ttl">Push · 9 Übungen</div>
+                <div class="row"><div><b>Bankdrücken</b><span>4 Sätze, 8 Wdh.</span></div><i class="play"></i></div>
+                <div class="row"><div><b>Schrägbankdrücken</b><span>4 Sätze, 8 Wdh.</span></div><i class="play"></i></div>
+                <div class="row"><div><b>Flys</b><span>3 Sätze, 8-12 Wdh.</span></div><i class="play"></i></div>
+                <div class="row"><div><b>Schulterdrücken</b><span>4 Sätze, 8 Wdh.</span></div><i class="play"></i></div>
+                <div class="pill" style="margin-top:auto;">Einheit starten</div>
+              </div>
+            </div>
+            <div class="phone mid">
+              <div class="screen">
+                <div class="sbar"><span>14:57</span><span>70</span></div>
+                <div class="ttl">Armkreisen</div>
+                <div class="ring-timer">02:00</div>
+                <div class="row"><div><b>Satz 1</b><span>00:02:00</span></div><i class="play"></i></div>
+                <div class="pill" style="margin-top:auto;">Übung abschließen</div>
+              </div>
+            </div>
+            <div class="phone">
+              <div class="screen">
+                <div class="sbar"><span>15:02</span><span>69</span></div>
+                <div class="ttl">Deine Ziele</div>
+                <div class="stat3"><div><b>827</b><span>kcal übrig</span></div><div><b>60</b><span>min</span></div><div><b>193</b><span>kcal</span></div></div>
+                <div class="macro">
+                  <div><div class="bar"><i style="width:65%;background:#a78bfa;"></i></div><span style="font-size:0.42rem;color:#7d7d7d;">Carbs</span></div>
+                  <div><div class="bar"><i style="width:64%;background:#3ee0c0;"></i></div><span style="font-size:0.42rem;color:#7d7d7d;">Eiweiß</span></div>
+                  <div><div class="bar"><i style="width:64%;background:#bef264;"></i></div><span style="font-size:0.42rem;color:#7d7d7d;">Fett</span></div>
+                </div>
+                <div class="row"><div><b>Mittagessen</b><span>911 kcal</span></div><i class="play"></i></div>
+                <div class="row"><div><b>Frühstück</b><span>698 kcal</span></div><i class="play"></i></div>
+                <div class="pill" style="margin-top:auto;">Mahlzeit hinzufügen</div>
+              </div>
+            </div>
+          </div>
+          <div class="app-caps"><span>Training</span><span>Ernährung</span><span>Fortschritt</span></div>
+          <div class="powered">POWERED BY NUTRILIZE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="pricing">
     <div class="wrap">
       <div class="section-head">
         <div><span class="kicker">Angebot & Preise</span></div>
-        <div><h2>Wähl deinen Einstieg.</h2></div>
+        <div><h2>Jeder startet mit dem Erstgespräch.</h2><p>Das Erstgespräch ist kostenlos und unverbindlich. Danach entscheiden wir gemeinsam, welches Paket zu deinem Ziel passt.</p></div>
       </div>
 
       <div class="pricing-grid">
-        <div class="price-card">
+        <div class="price-card feat">
+          <div class="flag">Dein Start</div>
           <h4>Erstgespräch</h4>
           <div class="price">0&nbsp;€</div>
           <div class="price-detail">Einmalig, unverbindlich</div>
         </div>
-        <div class="price-card feat">
-          <div class="flag">Beliebt</div>
+        <div class="price-card">
           <h4>FlowClub Member</h4>
           <div class="price">10&nbsp;€</div>
           <div class="price-detail">pro Monat, laufend</div>
@@ -355,12 +446,12 @@
     <div class="wrap">
       <div class="contact">
         <div>
-          <h2>Bereit für den ersten Schritt?</h2>
-          <p>Schreib mir auf Instagram einfach „START". Im kostenlosen Erstgespräch schauen wir, was zu dir passt.</p>
+          <h2>Starte mit dem Erstgespräch.</h2>
+          <p>Kostenlos und unverbindlich. Wir schauen uns deinen Alltag, dein Ziel und dein Trainingslevel an und finden den passenden Einstieg. Schreib mir auf Instagram einfach „START".</p>
         </div>
         <div class="contact-cta">
           <div class="ig">@chambers.body.performance</div>
-          <a class="btn">Schreib mir „START"</a>
+          <a class="btn">Erstgespräch sichern</a>
         </div>
       </div>
     </div>
@@ -368,7 +459,7 @@
 
   <footer>
     <div class="wrap">
-      <div class="mark"><span class="dot">CP</span> COACH CHAMBERS</div>
+      <div class="mark"><img src="logo-teal.png" alt="CP Coach Chambers" style="height:38px;"></div>
       <div class="foot-links"><span>Über mich</span><span>Angebot</span><span>Kontakt</span><span>Instagram</span></div>
       <small>© 2026 Coach Chambers</small>
     </div>
