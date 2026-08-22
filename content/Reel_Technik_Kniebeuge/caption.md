@@ -12,4 +12,4 @@ Meistens ist das nicht die Beweglichkeit, sondern eine zu schwache Hüfte, die d
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Speichern und beim nächsten Beintraining ausprobieren. Mehr zum Coaching über den Link in der Bio.

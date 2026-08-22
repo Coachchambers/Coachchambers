@@ -14,4 +14,4 @@ Genau das ist der Unterschied zwischen einem Trainingsplan aus dem Internet und 
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Wenn dein Plan das nicht berücksichtigt, ist es kein Plan. Schau dir das Coaching über den Link in der Bio an.

@@ -8,4 +8,4 @@ Ein Kaloriendefizit entsteht in der Küche. Training formt den Körper, ersetzt 
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Was ist bei dir der Knackpunkt: Training oder Ernährung? Schreib es in die Kommentare.

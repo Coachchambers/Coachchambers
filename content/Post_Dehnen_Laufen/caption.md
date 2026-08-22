@@ -8,4 +8,4 @@ Dynamisches Aufwärmen wie Ausfallschritte oder Beinschwingen aktiviert die Musk
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Speichern, damit du es vor dem nächsten Lauf parat hast.

@@ -14,4 +14,4 @@ Kleiner Griff, große Wirkung. Genau solche Details entscheiden bei Hybrid Train
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Genau solche Details planen wir im Coaching gemeinsam. Link in der Bio, das Erstgespräch ist kostenlos.

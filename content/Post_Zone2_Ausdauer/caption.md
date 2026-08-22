@@ -8,4 +8,4 @@ Ruhige Läufe im Zone-2-Bereich verbessern die Grundlagenausdauer nachweislich s
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Läufst du zu schnell für deine Grundlage? Schreib mir ein Ja in die Kommentare.

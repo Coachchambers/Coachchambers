@@ -8,4 +8,4 @@ Konstante Fortschritte entstehen durch wiederholbare Belastung, nicht durch maxi
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Alle Coachings und Preise findest du transparent über den Link in meiner Bio.

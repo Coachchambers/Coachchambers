@@ -8,4 +8,4 @@ Planks, Pallof Press und Anti-Rotations-Übungen trainieren die Fähigkeit, den 
 
 ## CTA
 
-Schreib mir "START" für dein kostenloses Erstgespräch.
+Welche der drei Übungen kanntest du noch nicht? Kommentar drunter.
