@@ -36,6 +36,42 @@ img { max-width: 100%; display: block; }
 
 a { color: var(--terracotta); }
 
+/* ===== PROMO BAR ===== */
+
+.promo-bar {
+  display: block;
+  background: var(--terracotta);
+  text-decoration: none;
+}
+
+.promo-bar:hover { background: var(--terracotta-hover, #A8552E); }
+
+.promo-bar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--cream-2);
+  text-align: center;
+}
+
+.promo-badge {
+  background: var(--cream-2);
+  color: var(--terracotta);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 100px;
+  flex-shrink: 0;
+}
+
 /* ===== NAV ===== */
 
 .nav {
