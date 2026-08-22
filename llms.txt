@@ -1,21 +1,43 @@
 # CP Coach Chambers
 
-> Hybrid-Training- und Ernährungscoaching in Schwerte (NRW). Kombiniert Laufen, Krafttraining und Mobility in einem System, für alle ab 30, die nachhaltig fit werden und bleiben wollen.
+> Personal Training und Hybrid-Training-Coaching in Schwerte (Nordrhein-Westfalen, Deutschland). Kombiniert Laufen, Krafttraining und Mobility in einem System, dazu individuell abgestimmtes Ernährungscoaching. Für alle ab 30, die nachhaltig fit werden und bleiben wollen.
 
 ## Angebot
 
 - Online-Coaching über eine eigene App mit individuellem Trainingsplan, ortsunabhängig, günstigerer Einstieg.
 - Personal Training 1:1 vor Ort im Umkreis Schwerte, intensivste Betreuung, höherer Preispunkt.
-- Ernährungscoaching, individuell auf die jeweilige Trainingsform abgestimmt statt standardisiert.
+- Ernährungscoaching, individuell auf die jeweilige Trainingsform abgestimmt statt standardisiert. Ein Lauftag braucht ein anderes Timing als ein schwerer Krafttag.
+
+## Preise
+
+Jeder Einstieg beginnt mit einem kostenlosen, unverbindlichen Erstgespräch.
+
+| Angebot | Preis |
+|---|---|
+| Erstgespräch | kostenlos, einmalig |
+| FlowClub Member | 10 Euro pro Monat |
+| 10 Tage Ernährung | 25 Euro einmalig |
+| 1 Monat Sport und Ernährung | 120 Euro |
+| 2 Monate Sport und Ernährung | 100 Euro pro Monat, 200 Euro gesamt |
+| 3 Monate Sport und Ernährung | 90 Euro pro Monat, 270 Euro gesamt |
+| 6 Monate Sport und Ernährung | 80 Euro pro Monat, 480 Euro gesamt |
+
+## Über den Coach
+
+Coach Chambers, 35 Jahre alt. Kampfsport seit dem 16. Lebensjahr: Ninjitsu, MMA und Brazilian Jiu-Jitsu. BJJ ist die Hauptsportart, dritter Platz bei den BJJ Novice Weltmeisterschaften in Las Vegas. Zwei Jahre Crossfit-Erfahrung. Coacht seit 2017, anfangs unentgeltlich für Freunde und Teamkollegen, daraus ist CP Coach Chambers entstanden.
+
+## Was Hybrid Training bedeutet
+
+Hybrid Training kombiniert Laufen, Krafttraining und Mobility in einem gemeinsamen System, statt sie getrennt zu betrachten. Der Unterschied zum blossen Nebeneinander beider Trainingsformen liegt in der Periodisierung: ohne abgestimmtes Timing bremsen sich Ausdauer- und Krafttraining gegenseitig aus, und genau dort entstehen die meisten Überlastungen.
 
 ## Positionierung
 
-Kein Fokus auf Sixpack-Ästhetik oder Extremsport. Ziel ist nachhaltiges Fitwerden und Fitbleiben, authentisch statt überinszeniert.
+Kein Fokus auf Sixpack-Ästhetik oder Extremsport. Ziel ist nachhaltiges Fitwerden und Fitbleiben, authentisch statt überinszeniert. Zielgruppe sind Menschen ab 30, unabhängig vom aktuellen Trainingslevel.
 
 ## Kontakt
 
-Instagram: https://www.instagram.com/chambers.body.performance (DM "START" für ein kostenloses Erstgespräch)
+Instagram: https://www.instagram.com/chambers.body.performance (Direktnachricht "START" für ein kostenloses Erstgespräch)
 
 ## Wichtige Seiten
 
-- [Startseite](https://coachchambers.github.io/Coachchambers/): Über mich, Angebot, FAQ, Kontakt
+- [Startseite](https://coachchambers.github.io/Coachchambers/): Über mich, Methode, Coaching-App, Preise, Kundenstimmen, FAQ, Kontakt
