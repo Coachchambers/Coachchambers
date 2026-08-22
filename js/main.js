@@ -30,3 +30,16 @@
     observer.observe(el);
   });
 })();
+
+// Highlight the price card the visitor picks before heading to Instagram.
+(function () {
+  var cards = document.querySelectorAll(".price-card");
+  if (!cards.length) return;
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function () {
+      cards.forEach(function (c) { c.classList.remove("selected"); });
+      card.classList.add("selected");
+    });
+  });
+})();

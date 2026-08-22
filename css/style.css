@@ -612,13 +612,26 @@ a { color: var(--terracotta); }
   flex-direction: column;
   gap: 6px;
   position: relative;
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .price-card:hover { transform: translateY(-4px); border-color: var(--terracotta); }
 .price-card.feat { background: var(--teal-deep); color: var(--cream); border: none; }
 .price-card.feat .price-detail { color: rgba(243, 232, 214, 0.65); }
 .price-card.feat .price { color: var(--terracotta-light); }
+
+.price-card.selected {
+  border-color: var(--terracotta);
+  border-width: 2px;
+  box-shadow: 0 0 0 4px rgba(193, 104, 58, 0.18), 0 16px 32px -18px rgba(193, 104, 58, 0.5);
+}
+
+.price-card.feat.selected {
+  box-shadow: 0 0 0 4px rgba(193, 104, 58, 0.28), 0 16px 32px -18px rgba(193, 104, 58, 0.6);
+}
 
 .price-card .flag {
   position: absolute;
@@ -637,6 +650,20 @@ a { color: var(--terracotta); }
 .price-card .price { font-family: var(--serif); font-weight: 700; font-size: 2.1rem; color: var(--terracotta); }
 .price-card .price small { font-size: 0.95rem; }
 .price-card .price-detail { font-size: 0.82rem; color: var(--muted); }
+
+.price-card .dm-hint {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--terracotta);
+}
+
+.price-card.feat .dm-hint {
+  border-top-color: rgba(243, 232, 214, 0.25);
+  color: var(--terracotta-light);
+}
 
 .pricing-note {
   margin-top: 34px;
