@@ -557,7 +557,7 @@ a { color: var(--terracotta); }
 .app-feat b { display: block; font-size: 0.98rem; color: var(--teal-deep); }
 .app-feat span { font-size: 0.9rem; color: var(--muted); }
 
-.app-shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: end; }
+.app-shots { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: end; }
 
 .phone { border-radius: 26px; background: #111; padding: 8px; box-shadow: 0 24px 50px -24px rgba(15, 40, 40, 0.55); }
 .phone.mid { transform: translateY(-26px); }
@@ -864,7 +864,7 @@ a { color: var(--terracotta); }
 }
 
 .site-footer .mark img { height: 38px; }
-.foot-links { display: flex; gap: 26px; font-size: 0.85rem; font-weight: 600; }
+.foot-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 26px; font-size: 0.85rem; font-weight: 600; }
 .foot-links a { color: var(--teal); text-decoration: none; }
 .foot-links a:hover { color: var(--terracotta); }
 .site-footer small { color: var(--muted); font-size: 0.8rem; }
@@ -888,7 +888,7 @@ a { color: var(--terracotta); }
   .app-wrap,
   .faq-wrap,
   .section-head,
-  .contact { grid-template-columns: 1fr; }
+  .contact { grid-template-columns: minmax(0, 1fr); }
 
   .section-head { gap: 16px; margin-bottom: 40px; }
   .method-grid { grid-template-columns: 1fr; }
