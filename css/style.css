@@ -768,6 +768,9 @@ a { color: var(--terracotta); }
   flex-direction: column;
 }
 
+.testi-photo { border-radius: 18px; overflow: hidden; margin-bottom: 20px; }
+.testi-photo img { width: 100%; height: auto; display: block; }
+
 .testi-card .quote-mark { font-family: var(--serif); font-size: 4rem; color: var(--terracotta); opacity: 0.35; line-height: 0.5; display: block; margin-bottom: 10px; }
 .testi-card blockquote { font-family: var(--serif); font-size: 1.14rem; line-height: 1.6; color: var(--teal-deep); margin: 0 0 24px; }
 
