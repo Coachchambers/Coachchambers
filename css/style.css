@@ -1047,3 +1047,36 @@ a { color: var(--terracotta); }
 
 /* Auf der dunklen Kachel braucht der Hinweis den helleren Ton. */
 .price-card.feat .spar { background: rgba(224, 139, 92, 0.16); color: var(--terracotta-light); }
+
+/* ===== FOTOS VOM COACH ===== */
+
+.hero-card.has-foto { padding-top: 0; overflow: hidden; }
+
+.hero-foto {
+  width: calc(100% + 60px);
+  max-width: none; /* hebt die globale Deckelung auf, sonst bleibt rechts ein Rand */
+  margin: 0 -30px 26px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+/* Beleg für das Wettkampfergebnis im Werdegang */
+.beleg { margin: 0 0 24px; }
+
+.beleg img {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(243, 232, 214, 0.18);
+}
+
+.beleg figcaption {
+  margin-top: 10px;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
+  color: rgba(243, 232, 214, 0.6);
+}
+
+@media (max-width: 1000px) {
+  .hero-foto { height: 260px; }
+}
