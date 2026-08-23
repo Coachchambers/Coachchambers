@@ -257,7 +257,7 @@
   <header class="nav">
     <div class="wrap">
       <a class="mark" href="#" aria-label="CP Coaching Startseite">
-        <img src="images/brand/cp-coaching-logo-teal-transparent.webp" alt="CP Coaching" width="420" height="346" loading="eager" fetchpriority="high" decoding="async">
+        <picture><source srcset="images/brand/cp-coaching-logo-teal-transparent.webp" type="image/webp"><img src="images/brand/cp-coaching-logo-teal-transparent.png" alt="CP Coaching" width="420" height="346" loading="eager" fetchpriority="high" decoding="async"></picture>
       </a>
       <nav class="navlinks" id="hauptmenue">
         <a href="#method">Methode</a>
@@ -296,16 +296,25 @@
           </div>
         </div>
         <div>
-          <figure class="portrait">
-            <img src="images/coach/coach-assault-bike.webp"
-                 alt="Coach Chambers beim Ausdauertraining auf dem Assault Bike"
-                 width="820" height="1230" loading="eager" fetchpriority="high" decoding="async">
-            <figcaption>
+          <div class="portrait">
+            <div class="slider" data-slider>
+              <div class="slides" role="group" aria-label="Wettkampfbilder aus dem Brazilian Jiu-Jitsu, zum Blättern wischen">
+                <figure><picture><source srcset="images/coach/bjj-1-bodenkampf.webp" type="image/webp"><img src="images/coach/bjj-1-bodenkampf.jpg" alt="Coach Chambers im blauen Gi kontrolliert seinen Gegner am Boden" width="900" height="675" loading="eager" fetchpriority="high" decoding="async"></picture></figure>
+                <figure><picture><source srcset="images/coach/bjj-2-wurf.webp" type="image/webp"><img src="images/coach/bjj-2-wurf.jpg" alt="Coach Chambers hebt seinen Gegner für einen Wurf an" width="900" height="675" loading="lazy" decoding="async"></picture></figure>
+                <figure><picture><source srcset="images/coach/bjj-3-guard-pass.webp" type="image/webp"><img src="images/coach/bjj-3-guard-pass.jpg" alt="Coach Chambers beim Überwinden der Guard seines Gegners" width="900" height="675" loading="lazy" decoding="async"></picture></figure>
+              </div>
+              <div class="slider-nav">
+                <button class="s-arrow" type="button" data-dir="-1" aria-label="Vorheriges Bild">&#8249;</button>
+                <div class="dots"></div>
+                <button class="s-arrow" type="button" data-dir="1" aria-label="Nächstes Bild">&#8250;</button>
+              </div>
+            </div>
+            <div class="portrait-text">
               <p class="tag">Von der Matte</p>
               <h2>Dritter Platz, BJJ Novice Weltmeisterschaft, Las Vegas</h2>
               <p>Feste Gewichtsklassen im Wettkampf haben mich gezwungen, meinen Körper wirklich zu verstehen. Genau dieses Wissen gebe ich seit 2017 weiter.</p>
-            </figcaption>
-          </figure>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -327,15 +336,15 @@
           <div class="slider" data-slider>
             <div class="slides" role="group" aria-label="Übungen mit dem eigenen Körpergewicht, zum Blättern wischen">
               <figure>
-                <img src="images/coach/sport-1-bear-crawl.webp" alt="Coach Chambers im Bear Crawl, Hände und Füße am Boden" width="760" height="950" loading="lazy" decoding="async">
+                <picture><source srcset="images/coach/sport-1-bear-crawl.webp" type="image/webp"><img src="images/coach/sport-1-bear-crawl.jpg" alt="Coach Chambers im Bear Crawl, Hände und Füße am Boden" width="760" height="950" loading="lazy" decoding="async"></picture>
                 <figcaption>Bear Crawl, Rumpf unter Spannung</figcaption>
               </figure>
               <figure>
-                <img src="images/coach/sport-2-liegestuetz.webp" alt="Coach Chambers im tiefen Liegestütz" width="760" height="950" loading="lazy" decoding="async">
+                <picture><source srcset="images/coach/sport-2-liegestuetz.webp" type="image/webp"><img src="images/coach/sport-2-liegestuetz.jpg" alt="Coach Chambers im tiefen Liegestütz" width="760" height="950" loading="lazy" decoding="async"></picture>
                 <figcaption>Liegestütz, saubere Tiefe statt Tempo</figcaption>
               </figure>
               <figure>
-                <img src="images/coach/sport-3-kniebeuge.webp" alt="Coach Chambers in der tiefen Kniebeuge" width="760" height="950" loading="lazy" decoding="async">
+                <picture><source srcset="images/coach/sport-3-kniebeuge.webp" type="image/webp"><img src="images/coach/sport-3-kniebeuge.jpg" alt="Coach Chambers in der tiefen Kniebeuge" width="760" height="950" loading="lazy" decoding="async"></picture>
                 <figcaption>Kniebeuge, volle Bewegungsstrecke</figcaption>
               </figure>
             </div>
@@ -381,9 +390,9 @@
             <span class="medal">3.<br>Platz<br>WM</span>
             <p class="tag">Der Werdegang</p>
             <figure class="beleg">
-              <img src="images/coach/coach-mobility.webp"
+              <picture><source srcset="images/coach/coach-mobility.webp" type="image/webp"><img src="images/coach/coach-mobility.jpg"
                    alt="Coach Chambers bei einer Mobility-Übung an der Wand"
-                   width="820" height="779" loading="lazy" decoding="async">
+                   width="820" height="779" loading="lazy" decoding="async"></picture>
             </figure>
             <ol class="timeline">
               <li><b>Kindheit</b><span>Fußball und Basketball, der erste Kontakt mit Teamsport.</span></li>
@@ -399,27 +408,9 @@
             <p class="intro">Als kleiner Junge habe ich mit Fußball und Basketball angefangen. Mit 16 fand ich meine Passion im Krafttraining und Kampfsport: Ninjitsu, MMA und Brazilian Jiu-Jitsu begleiten mich seither. BJJ ist bis heute meine große Leidenschaft, ich bin aktiv im Wettkampf angetreten und habe bei den BJJ Novice Weltmeisterschaften in Las Vegas den dritten Platz geholt.</p>
             <p class="pull">„Feste Gewichtsklassen im BJJ haben mich gezwungen, meinen Körper wirklich zu verstehen. Genau dieses Wissen gebe ich heute weiter."</p>
 
-            <div class="slider" data-slider>
-              <div class="slides" role="group" aria-label="Wettkampfbilder aus dem Brazilian Jiu-Jitsu, zum Blättern wischen">
-                <figure>
-                  <img src="images/coach/bjj-1-bodenkampf.webp" alt="Coach Chambers im blauen Gi kontrolliert seinen Gegner am Boden" width="900" height="675" loading="lazy" decoding="async">
-                  <figcaption>Bodenkampf, Kontrolle aus der Seitlage</figcaption>
-                </figure>
-                <figure>
-                  <img src="images/coach/bjj-2-wurf.webp" alt="Coach Chambers hebt seinen Gegner für einen Wurf an" width="900" height="675" loading="lazy" decoding="async">
-                  <figcaption>Der Moment vor dem Wurf</figcaption>
-                </figure>
-                <figure>
-                  <img src="images/coach/bjj-3-guard-pass.webp" alt="Coach Chambers beim Überwinden der Guard seines Gegners" width="900" height="675" loading="lazy" decoding="async">
-                  <figcaption>Guard Pass, IBJJF Novice</figcaption>
-                </figure>
-              </div>
-              <div class="slider-nav">
-                <button class="s-arrow" type="button" data-dir="-1" aria-label="Vorheriges Bild">&#8249;</button>
-                <div class="dots"></div>
-                <button class="s-arrow" type="button" data-dir="1" aria-label="Nächstes Bild">&#8250;</button>
-              </div>
-            </div>
+            <figure class="portraet-klein">
+              <picture><source srcset="images/coach/coach-assault-bike.webp" type="image/webp"><img src="images/coach/coach-assault-bike.jpg" alt="Coach Chambers beim Ausdauertraining auf dem Assault Bike" width="820" height="1230" loading="lazy" decoding="async"></picture>
+            </figure>
             <p>Zwei Jahre Crossfit haben mir gezeigt, wie sich Kraft und Ausdauer wirklich verbinden lassen. 2017 habe ich angefangen, Freunde und Teamkollegen zu coachen. Nicht für Geld, einfach nur, um Menschen gesünder zu machen. Genau daraus ist CP Coaching entstanden.</p>
             <p>Heute steht das große Ganze im Fokus: Hybrid Training, eine Verbindung aus Stärke, Ausdauer, Beweglichkeit und Erholung, für echte Performance auf der Matte, im Training und im Alltag. Mein Fokus liegt nicht auf Sixpack-Ästhetik oder Extremsport, sondern darauf, nachhaltig fit zu werden und es auch zu bleiben.</p>
             <div class="about-tags">
@@ -619,7 +610,10 @@
           </div>
           <div class="testi-card testi-card-photo">
             <div class="testi-photo">
-              <img src="images/testimonials/denise-vorher-nachher.webp" alt="Denise, Vorher-Nachher-Vergleich nach 5 Monaten Hybrid Coaching" loading="lazy">
+              <picture>
+                <source srcset="images/testimonials/denise-vorher-nachher.webp" type="image/webp">
+                <img src="images/testimonials/denise-vorher-nachher.jpg" alt="Denise, Vorher-Nachher-Vergleich nach 5 Monaten Hybrid Coaching" width="695" height="595" loading="lazy" decoding="async">
+              </picture>
             </div>
             <span class="quote-mark">&bdquo;</span>
             <blockquote>Ich liebe Essen und hab immer gedacht, Abnehmen heißt hungern. Mit dem Coaching musste ich auf nichts verzichten, ich hab sogar weiter meine Snacks gegessen. Gestartet bin ich bei 72 Kilo, nach 5 Monaten steh ich bei 58 und fühl mich einfach mega leichter, fitter, selbstbewusster.</blockquote>
@@ -688,7 +682,7 @@
   <footer class="site-footer">
     <div class="wrap">
       <a class="mark" href="#" aria-label="CP Coaching Startseite">
-        <img src="images/brand/cp-coaching-logo-teal-transparent.webp" alt="CP Coaching" width="420" height="346" loading="lazy" decoding="async">
+        <picture><source srcset="images/brand/cp-coaching-logo-teal-transparent.webp" type="image/webp"><img src="images/brand/cp-coaching-logo-teal-transparent.png" alt="CP Coaching" width="420" height="346" loading="lazy" decoding="async"></picture>
       </a>
       <nav class="foot-links">
         <a href="#about">Über mich</a>

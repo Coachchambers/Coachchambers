@@ -1071,25 +1071,26 @@ a { color: var(--terracotta); }
   box-shadow: 0 30px 60px -30px rgba(15, 40, 40, 0.55);
 }
 
-.portrait img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 2 / 3;
-  object-fit: cover;
-  object-position: center 22%;
-}
+.portrait { background: var(--teal-deep); }
+.portrait .slider { margin: 0; }
+.portrait .slides { border-radius: 0; }
+.portrait .slides img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.portrait .slides figcaption { display: none; }
 
-.portrait figcaption {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 96px 30px 30px;
-  background: linear-gradient(to top, rgba(9, 24, 24, 0.96) 42%, rgba(9, 24, 24, 0.72) 68%, transparent);
-  color: var(--cream);
-}
+.portrait .slider-nav { margin: 0; padding: 16px 0 4px; }
+.portrait .s-arrow { border-color: rgba(243, 232, 214, 0.28); color: var(--cream); }
+.portrait .s-arrow:hover { background: var(--cream); color: var(--teal-deep); }
+.portrait .s-arrow:disabled:hover { background: transparent; color: var(--cream); }
+.portrait .dots button { background: rgba(243, 232, 214, 0.28); }
+.portrait .dots button[aria-current="true"] { background: var(--terracotta-light); }
 
-.portrait .tag {
+.portrait-text { padding: 4px 30px 30px; color: var(--cream); }
+
+/* Porträt im Abschnitt Über mich */
+.portraet-klein { margin: 0 0 30px; }
+.portraet-klein img { width: 100%; height: auto; border-radius: 22px; }
+
+.portrait-text .tag {
   font-size: 0.7rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1098,7 +1099,7 @@ a { color: var(--terracotta); }
   margin: 0;
 }
 
-.portrait h2 {
+.portrait-text h2 {
   font-family: var(--serif);
   font-size: 1.45rem;
   line-height: 1.2;
@@ -1106,7 +1107,7 @@ a { color: var(--terracotta); }
   color: var(--cream);
 }
 
-.portrait figcaption p:last-child {
+.portrait-text p:last-child {
   font-size: 0.9rem;
   line-height: 1.55;
   color: rgba(243, 232, 214, 0.82);
@@ -1155,7 +1156,7 @@ a { color: var(--terracotta); }
 
 @media (max-width: 640px) {
   .portrait figcaption { padding: 72px 22px 24px; }
-  .portrait h2 { font-size: 1.25rem; }
+  .portrait-text h2 { font-size: 1.25rem; }
   .band { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .band figcaption { font-size: 1.15rem; }
 }
