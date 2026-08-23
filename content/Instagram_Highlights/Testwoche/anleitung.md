@@ -7,7 +7,7 @@ Vier Story-Bilder plus Cover, 1080 mal 1920. Ersetzt das alte Highlight „Free 
 | Datei | Inhalt | Zweck |
 |---|---|---|
 | `s1.png` | Sieben Tage. Komplett kostenlos. | Der Aufhänger. Sagt in drei Zeilen, worum es geht. |
-| `s2.png` | Sieben Tage, vier Bausteine | Was drin ist: Trainingsplan, Ernährung, App, Betreuung. |
+| `s2.png` | Sieben Tage, drei Bausteine | Was drin ist: Trainingsplan, Ernährung, Betreuung. |
 | `s3.png` | Kein Haken. Wirklich keiner. | Räumt die Zweifel ab, bevor sie entstehen. |
 | `s4.png` | Antworte mit „TESTWOCHE" | Der Handlungsaufruf. |
 | `cover-icon.png` | 7 Tage | Titelbild des Highlights. |
@@ -24,6 +24,10 @@ Vier Story-Bilder plus Cover, 1080 mal 1920. Ersetzt das alte Highlight „Free 
 ## Warum Folie 3 wichtig ist
 
 Bei einem kostenlosen Angebot ist die erste Reaktion Misstrauen: Wo ist der Haken, werde ich danach abgebucht, muss ich meine Kartendaten angeben. Folie 3 beantwortet genau diese drei Fragen, bevor sie jemand stellt. Ohne sie klicken Leute weg, statt zu fragen.
+
+## Was die Testwoche nicht enthält
+
+**Die Coaching-App ist nicht dabei.** Sie gehört zu den bezahlten Paketen. Auf keiner Kachel wird sie erwähnt, und das soll auch so bleiben. Wenn im Gespräch danach gefragt wird, ist das ein gutes Zeichen: dann ist die App ein Grund zu buchen, kein enttäuschter Erwartungswert.
 
 ## Wenn du das Angebot begrenzt
 
