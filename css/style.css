@@ -769,10 +769,18 @@ a { color: var(--terracotta); }
 /* Der Beschriftungstext darf nie umbrechen, sonst kippt der Pfeil in eine zweite Zeile. */
 .guide-buy .btn { white-space: nowrap; }
 
-/* Wird es eng, steht der Preis über einem Button auf voller Breite. */
-@media (max-width: 460px) {
-  .guide-buy { flex-direction: column; align-items: stretch; gap: 14px; }
-  .guide-buy .btn { justify-content: center; }
+/* Auf schmalen Displays bleiben Preis und Button nebeneinander,
+   der Button wird dafür kompakter statt umzubrechen. */
+@media (max-width: 520px) {
+  .guide-buy { gap: 12px; }
+  .guide-buy .btn { padding: 14px 20px; font-size: 0.9rem; gap: 6px; }
+  .guide-price { font-size: 1.45rem; }
+}
+
+@media (max-width: 380px) {
+  .guide-card { padding: 28px 22px; }
+  .guide-buy .btn { padding: 13px 16px; font-size: 0.85rem; }
+  .guide-price { font-size: 1.3rem; }
 }
 
 .guide-price { font-family: var(--serif); font-weight: 700; font-size: 1.7rem; color: var(--terracotta); }
