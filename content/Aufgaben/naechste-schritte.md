@@ -170,7 +170,7 @@ Auf der Website, im Impressum, in der Widerrufsseite, im Firmen-Schema und in de
 
 **Nachziehen musst du sie noch bei:**
 
-- Google Unternehmensprofil (Feld Telefon)
+- ~~Google Unternehmensprofil (Feld Telefon)~~ erledigt
 - Instagram, im Profi-Konto unter Kontaktoptionen
 - Nutrilize, falls dort eine Nummer hinterlegt ist
 - Digistore24, im Verkäuferprofil
