@@ -952,7 +952,16 @@ a { color: var(--terracotta); }
 
 /* ---------- Rechtstexte: Impressum, Datenschutz ---------- */
 .legal .wrap { max-width: 760px; }
-.legal h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.12; margin-bottom: 14px; }
+/* Lange deutsche Wörter wie "Datenschutzerklärung" passen auf schmalen
+   Displays nicht in eine Zeile, deshalb Silbentrennung erlauben. */
+.legal h1 {
+  font-family: var(--serif);
+  font-size: clamp(1.75rem, 7vw, 2.8rem);
+  line-height: 1.12;
+  margin-bottom: 14px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
 .legal .legal-lead { color: var(--ink-soft, #5c5c54); font-size: 1.02rem; margin-bottom: 40px; }
 .legal h2 { font-family: var(--serif); font-size: 1.28rem; font-weight: 700; margin: 40px 0 12px; }
 .legal p { line-height: 1.7; margin-bottom: 14px; overflow-wrap: anywhere; }
@@ -1126,20 +1135,23 @@ a { color: var(--terracotta); }
   margin: 0 0 52px;
 }
 
-.band img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 24px;
-}
-
-.band figcaption {
+.band-text {
   font-family: var(--serif);
   font-style: italic;
   font-size: clamp(1.3rem, 2.2vw, 1.9rem);
   line-height: 1.35;
   color: var(--cream);
+  margin: 0;
 }
+
+/* Slider innerhalb des dunklen Methodenbereichs */
+.band .slider { margin: 0; }
+.band .s-arrow { border-color: rgba(243, 232, 214, 0.28); color: var(--cream); }
+.band .s-arrow:hover { background: var(--cream); color: var(--teal-deep); }
+.band .s-arrow:disabled:hover { background: transparent; color: var(--cream); }
+.band .dots button { background: rgba(243, 232, 214, 0.28); }
+.band .dots button[aria-current="true"] { background: var(--terracotta-light); }
+.band .slides img { aspect-ratio: 4 / 5; }
 
 @media (max-width: 640px) {
   .portrait figcaption { padding: 72px 22px 24px; }
