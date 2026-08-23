@@ -1,6 +1,6 @@
-# Lokales SEO für CP Coach Chambers
+# Lokales SEO für CP Coaching
 
-Stand: 22. August 2026. Bezieht sich auf https://coachchambers.github.io/Coachchambers/
+Stand: 23. August 2026. Bezieht sich auf https://coach-chambers.de/
 
 ## Zielkeywords
 
@@ -45,11 +45,11 @@ Ohne dieses Profil tauchst du bei „Personal Trainer Schwerte" **nicht in der K
 
 So füllst du es aus:
 
-- **Name:** CP Coach Chambers
+- **Name:** CP Coaching
 - **Kategorie primär:** Personal Trainer
 - **Kategorien zusätzlich:** Fitnesscenter, Ernährungsberater
 - **Adresse:** Wenn du von zuhause arbeitest, wähle „Ich beliefere Kunden vor Ort" und blende die Adresse aus. Dann gib das Einzugsgebiet an: Schwerte, Dortmund, Iserlohn, Holzwickede.
-- **Website:** https://coachchambers.github.io/Coachchambers/
+- **Website:** https://coach-chambers.de/
 - **Beschreibung:** Übernimm den ersten Absatz von deiner Seite.
 - **Fotos:** Mindestens fünf. Logo, Trainingssituationen, du selbst. Profile mit Fotos werden deutlich häufiger angeklickt.
 
@@ -59,7 +59,7 @@ So füllst du es aus:
 
 **https://search.google.com/search-console**
 
-- Property hinzufügen, Typ „URL-Präfix", Adresse `https://coachchambers.github.io/Coachchambers/`
+- Property hinzufügen, Typ „URL-Präfix", Adresse `https://coach-chambers.de/`
 - Bestätigung über die HTML-Tag-Methode. Google gibt dir einen Meta-Tag. **Schick mir den, ich baue ihn ein.**
 - Danach unter „Sitemaps" eintragen: `sitemap.xml`
 
@@ -73,9 +73,19 @@ Damit siehst du nach ein bis zwei Wochen, für welche Suchbegriffe du gefunden w
 
 ## Was ehrlicherweise begrenzt ist
 
-**Die Adresse `coachchambers.github.io` ist eine fremde Domain.** Du baust damit keine eigene Autorität auf, sondern nutzt die von GitHub. Für lokale Suchen ist das weniger schlimm als für überregionale, weil dort das Unternehmensprofil und die Nähe zählen. Aber eine eigene Domain wäre messbar besser, und sie kostet zehn bis zwanzig Euro im Jahr. Sobald die erste Kundin über die Seite kommt, hat sie sich für die nächsten fünfzig Jahre bezahlt gemacht.
+**Die eigene Domain ist da.** Seit August 2026 läuft die Seite unter `coach-chambers.de`
+statt unter einer GitHub-Adresse. Damit baust du eigene Autorität auf, statt die von GitHub
+mitzunutzen. Was bleibt: eine junge Domain hat kein Vertrauen bei Google. Das entsteht über
+Monate, nicht über Wochen.
 
-**Eine einzelne Seite hat begrenzte Rankingfläche.** Du kannst mit einer Seite nicht gleichzeitig für „Personal Trainer Schwerte", „Ernährungsberatung Schwerte" und „Hybrid Training" ganz oben stehen. Der nächste sinnvolle Schritt wären eigene Unterseiten je Angebot. Das lohnt sich aber erst, wenn die Startseite Zugriffe hat, sonst optimieren wir ins Leere.
+**Die Unterseiten stehen.** Für „personal training schwerte" und „ernährungsberatung schwerte"
+gibt es jetzt je eine eigene Seite mit eigenem Titel, eigener H1, eigenen Preisen und eigenen
+FAQ. Damit konkurrieren die Suchbegriffe nicht mehr um dieselbe Seite. Mehr Unterseiten
+lohnen sich erst, wenn diese drei messbar Zugriffe haben.
+
+**Was jetzt der Engpass ist, sind Bewertungen, nicht die Website.** Technisch ist die Seite
+sauber. Bei lokaler Suche entscheidet ab hier das Google-Unternehmensprofil, und dort zählen
+echte Bewertungen stärker als alles, was auf der Website steht.
 
 ---
 
@@ -84,7 +94,7 @@ Damit siehst du nach ein bis zwei Wochen, für welche Suchbegriffe du gefunden w
 | Zeitraum | Was realistisch passiert |
 |---|---|
 | Tag 1 bis 3 | Google findet die Seite, sofern in der Search Console eingereicht |
-| Woche 1 bis 2 | Seite erscheint bei der Suche nach „CP Coach Chambers" |
+| Woche 1 bis 2 | Seite erscheint bei der Suche nach „CP Coaching" |
 | Woche 2 bis 4 | Unternehmensprofil erscheint in der Kartenansicht, sofern angelegt und bestätigt |
 | Monat 2 bis 3 | erste Platzierungen bei „hybrid training schwerte" |
 | Monat 3 bis 6 | Chance auf vordere Plätze bei „personal trainer schwerte", abhängig von Bewertungen |
