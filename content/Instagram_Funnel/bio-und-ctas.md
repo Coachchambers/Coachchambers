@@ -1,6 +1,6 @@
 # Instagram-Funnel: Bio und CTAs
 
-Stand: nach dem Livegang der Website unter https://coachchambers.github.io/Coachchambers/
+Stand: 23. August 2026, Website live unter https://coach-chambers.de
 
 ## Das Problem, das wir lösen
 
@@ -41,18 +41,29 @@ Kostenloses Erstgespräch 👇
 ### Alternative, falls du persönlicher willst
 
 ```
-Coach Chambers | Hybrid Training in Schwerte
-Stark werden. Fit bleiben. Ohne Schnellschuss.
+Coach Chambers | Hybrid Training Schwerte
+Stark werden. Fit bleiben.
 Training, Ernährung & App aus einer Hand
 Erstgespräch kostenlos 👇
 ```
+
+### Dritte Variante, falls die Guides Verkäufe bringen sollen
+
+```
+Hybrid Training & Ernährung | Schwerte
+Laufen, Kraft & Mobility in einem System
+Coaching ab 30 🥋 Guides ab 9,99 €
+Erstgespräch kostenlos 👇
+```
+
+Nur nehmen, wenn die digitalen Guides gerade der Schwerpunkt sind. Der Preis in der Bio senkt die Hürde für den Kauf, kostet aber die Zeile mit „Coaching seit 2017", und das ist der stärkere Vertrauensbeweis für 1:1-Kunden.
 
 ### Der Link
 
 Trag im Feld „Website" ein:
 
 ```
-https://coachchambers.github.io/Coachchambers/
+https://coach-chambers.de
 ```
 
 Kein Linktree, kein Umweg. Ein Klick, eine Seite, ein Ziel.
