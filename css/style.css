@@ -1061,34 +1061,50 @@ a { color: var(--terracotta); }
 
 /* ===== FOTOS VOM COACH ===== */
 
-/* Hochformat-Porträt in der Hero-Spalte. Der Text sitzt als Bildunterschrift
-   auf dem unteren Teil, damit Bild und Aussage eine Einheit bilden. */
+/* Die Bildkarte im Hero ist ein Objekt: Foto oben, Text unten, gleiche
+   dunkle Fläche, weicher Übergang statt harter Kante. */
 .portrait {
   position: relative;
   margin: 0 0 8px;
   border-radius: 28px;
   overflow: hidden;
+  background: var(--teal-deep);
   box-shadow: 0 30px 60px -30px rgba(15, 40, 40, 0.55);
 }
 
-.portrait { background: var(--teal-deep); }
-.portrait .slider { margin: 0; }
+.portrait .slider { margin: 0; position: relative; }
 .portrait .slides { border-radius: 0; }
 .portrait .slides img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
-.portrait .slides figcaption { display: none; }
 
-.portrait .slider-nav { margin: 0; padding: 16px 0 4px; }
-.portrait .s-arrow { border-color: rgba(243, 232, 214, 0.28); color: var(--cream); }
+/* Verlauf am unteren Bildrand, damit Foto und Karte ineinander übergehen. */
+.portrait .slider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 96px;
+  background: linear-gradient(to top, var(--teal-deep) 12%, rgba(15, 40, 40, 0.55) 55%, transparent);
+  pointer-events: none;
+}
+
+/* Bedienelemente liegen im Verlauf, nicht in einer eigenen Zeile. */
+.portrait .slider-nav {
+  position: absolute;
+  right: 20px;
+  bottom: 16px;
+  z-index: 2;
+  margin: 0;
+  gap: 12px;
+}
+
+.portrait .s-arrow { width: 34px; height: 34px; font-size: 1.15rem; border-color: rgba(243, 232, 214, 0.3); color: var(--cream); }
 .portrait .s-arrow:hover { background: var(--cream); color: var(--teal-deep); }
 .portrait .s-arrow:disabled:hover { background: transparent; color: var(--cream); }
-.portrait .dots button { background: rgba(243, 232, 214, 0.28); }
+.portrait .dots button { background: rgba(243, 232, 214, 0.35); }
 .portrait .dots button[aria-current="true"] { background: var(--terracotta-light); }
 
-.portrait-text { padding: 4px 30px 30px; color: var(--cream); }
-
-/* Porträt im Abschnitt Über mich */
-.portraet-klein { margin: 0 0 30px; }
-.portraet-klein img { width: 100%; height: auto; border-radius: 22px; }
+.portrait-text { position: relative; padding: 0 30px 32px; color: var(--cream); }
 
 .portrait-text .tag {
   font-size: 0.7rem;
@@ -1114,20 +1130,15 @@ a { color: var(--terracotta); }
   margin: 0;
 }
 
+/* Porträt im Abschnitt Über mich */
+.portraet-klein { margin: 0 0 30px; }
+.portraet-klein img { width: 100%; height: auto; border-radius: 22px; }
+
 /* Bild im Werdegang */
 .beleg { margin: 0 0 26px; }
+.beleg img { display: block; width: 100%; height: auto; border-radius: 16px; }
 
-/* Kein Beschnitt: bei einer Übung muss die ganze Ausführung sichtbar sein,
-   also Kopf, Rumpf, Knie und Füße. */
-.beleg img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 16px;
-}
-
-/* Bild und Aussage nebeneinander über den Methodenkarten.
-   Das Bild wird bewusst nicht beschnitten, sonst fehlt der Kopf. */
+/* Methodenbereich: Slider links, Aussage rechts */
 .band {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
@@ -1145,20 +1156,35 @@ a { color: var(--terracotta); }
   margin: 0;
 }
 
-/* Slider innerhalb des dunklen Methodenbereichs */
-.band .slider { margin: 0; }
-.band .s-arrow { border-color: rgba(243, 232, 214, 0.28); color: var(--cream); }
-.band .s-arrow:hover { background: var(--cream); color: var(--teal-deep); }
-.band .s-arrow:disabled:hover { background: transparent; color: var(--cream); }
-.band .dots button { background: rgba(243, 232, 214, 0.28); }
-.band .dots button[aria-current="true"] { background: var(--terracotta-light); }
+.band .slider { margin: 0; position: relative; }
+.band .slides { border-radius: 24px; }
 .band .slides img { aspect-ratio: 4 / 5; }
 
+/* Auch hier laufen die Bedienelemente im Bild aus, statt darunter zu schweben. */
+.band .slider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 90px;
+  border-radius: 0 0 24px 24px;
+  background: linear-gradient(to top, rgba(15, 40, 40, 0.92), transparent);
+  pointer-events: none;
+}
+
+.band .slider-nav { position: absolute; right: 18px; bottom: 14px; z-index: 2; margin: 0; gap: 12px; }
+.band .s-arrow { width: 34px; height: 34px; font-size: 1.15rem; border-color: rgba(243, 232, 214, 0.3); color: var(--cream); }
+.band .s-arrow:hover { background: var(--cream); color: var(--teal-deep); }
+.band .s-arrow:disabled:hover { background: transparent; color: var(--cream); }
+.band .dots button { background: rgba(243, 232, 214, 0.35); }
+.band .dots button[aria-current="true"] { background: var(--terracotta-light); }
+
 @media (max-width: 640px) {
-  .portrait figcaption { padding: 72px 22px 24px; }
+  .portrait-text { padding: 0 22px 26px; }
   .portrait-text h2 { font-size: 1.25rem; }
-  .band { grid-template-columns: minmax(0, 1fr); gap: 22px; }
-  .band figcaption { font-size: 1.15rem; }
+  .band { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .band-text { font-size: 1.15rem; }
 }
 
 /* ===== BILDER-SLIDER ===== */
