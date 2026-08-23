@@ -623,7 +623,7 @@ a { color: var(--terracotta); }
 /* ===== PRICING ===== */
 
 .pricing-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
-.price-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 18px; }
+.price-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 18px; }
 
 .price-card {
   background: var(--cream-2);
