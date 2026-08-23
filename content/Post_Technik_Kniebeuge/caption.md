@@ -1,6 +1,6 @@
 # Post: "Deine Knie kippen beim Squat ein? Das ist der Grund"
 
-Test-Post zum Technik-/Mechanism-Hook-Winkel, abgeleitet aus der Insights-Analyse: Top-Content der letzten 30 Tage war fachfremd (Nostalgie-Reel, Food-Visual), kein Technik-Content wurde bisher getestet. Netto-Follower lag bei -180 trotz 13.369 Aufrufen, Kontakte über Nachrichten bei 0. Ziel dieses Posts: prüfen, ob fachlicher Mechanism-Content (Ursache statt nur Versprechen) Saves/Kommentare und DM-Anfragen auslöst.
+Test-Post zum Technik-/Mechanism-Hook-Winkel, abgeleitet aus der Insights-Analyse: Top-Content der letzten 30 Tage war fachfremd (Nostalgie-Reel, Food-Visual), kein Technik-Content wurde bisher getestet. Der Netto-Followerzuwachs war trotz hoher Reichweite negativ, Anfragen über Nachrichten gab es keine. Ziel dieses Posts: prüfen, ob fachlicher Mechanism-Content (Ursache statt nur Versprechen) Saves/Kommentare und DM-Anfragen auslöst.
 
 ## Caption
 

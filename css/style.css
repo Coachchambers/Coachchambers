@@ -938,3 +938,5 @@ a { color: var(--terracotta); }
 .legal p { line-height: 1.7; margin-bottom: 14px; overflow-wrap: anywhere; }
 .legal a { color: var(--terracotta); text-decoration: underline; text-underline-offset: 3px; }
 .legal a:hover { color: var(--teal); }
+.widerruf-formular { border: 1px solid rgba(32,32,28,.18); border-radius: 14px; padding: 22px 24px; margin-top: 18px; background: var(--cream-2, #FBF6EC); }
+.widerruf-formular p { margin-bottom: 12px; }

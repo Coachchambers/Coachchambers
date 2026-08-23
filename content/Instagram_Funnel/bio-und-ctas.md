@@ -6,11 +6,9 @@ Stand: 23. August 2026, Website live unter https://coach-chambers.de
 
 Aus den Insights der letzten 30 Tage:
 
-- 13.369 Aufrufe
-- Netto-Follower: minus 180
-- Kontakte über Nachrichten: **0**
+Die Reichweite war da, im fünfstelligen Bereich. Der Netto-Followerzuwachs war trotzdem negativ, und über Nachrichten kam **keine einzige Anfrage** zustande.
 
-Reichweite war also da. Der Weg von der Reichweite zur Anfrage war kaputt.
+Der Weg von der Reichweite zur Anfrage war also kaputt, nicht die Reichweite selbst.
 
 Der Grund: „Schreib mir START" verlangt von einem Fremden, dass er dir persönlich schreibt, bevor er weiß, wer du bist, was du anbietest und was es kostet. Das ist eine hohe Hürde. Eine Seite anzuschauen ist dagegen anonym und unverbindlich.
 
@@ -124,7 +122,7 @@ Also: zwei von fünf Posts verkaufen, drei bauen Reichweite auf.
 Schau in 30 Tagen auf drei Zahlen:
 
 1. **Klicks auf den Bio-Link.** Vorher null, weil kein Link da war. Alles über null ist Fortschritt.
-2. **Netto-Follower.** Aktuell minus 180. Ziel: mindestens ausgeglichen.
+2. **Netto-Follower.** Startwert war negativ. Ziel: mindestens ausgeglichen.
 3. **Erstgespräche.** Die einzige Zahl, die am Ende zählt.
 
 Wenn nach 30 Tagen Klicks kommen, aber keine Erstgespräche, liegt es an der Seite und wir überarbeiten sie. Wenn keine Klicks kommen, liegt es am Content und wir überarbeiten die Hooks. Ohne diese Trennung stochern wir im Nebel.
