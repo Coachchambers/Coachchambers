@@ -105,3 +105,57 @@
     if (e.key === "Escape") setOpen(false);
   });
 })();
+
+// Bilder-Slider. Das Wischen macht der Browser selbst, das Skript ergänzt
+// nur Pfeile und Punkte. Ohne Javascript bleibt der Slider bedienbar.
+(function () {
+  document.querySelectorAll("[data-slider]").forEach(function (slider) {
+    var track = slider.querySelector(".slides");
+    var figures = Array.prototype.slice.call(track.children);
+    var dots = slider.querySelector(".dots");
+    var arrows = Array.prototype.slice.call(slider.querySelectorAll(".s-arrow"));
+    if (figures.length < 2) { slider.querySelector(".slider-nav").hidden = true; return; }
+
+    figures.forEach(function (fig, i) {
+      var dot = document.createElement("button");
+      dot.type = "button";
+      dot.setAttribute("aria-label", "Bild " + (i + 1) + " von " + figures.length);
+      dot.addEventListener("click", function () { go(i); });
+      dots.appendChild(dot);
+    });
+
+    function aktuell() {
+      return Math.round(track.scrollLeft / track.clientWidth);
+    }
+
+    function go(i) {
+      i = Math.max(0, Math.min(figures.length - 1, i));
+      track.scrollTo({ left: i * track.clientWidth, behavior: "smooth" });
+    }
+
+    function markieren() {
+      var i = aktuell();
+      Array.prototype.forEach.call(dots.children, function (d, n) {
+        if (n === i) { d.setAttribute("aria-current", "true"); }
+        else { d.removeAttribute("aria-current"); }
+      });
+      arrows.forEach(function (a) {
+        var dir = Number(a.dataset.dir);
+        a.disabled = (dir < 0 && i === 0) || (dir > 0 && i === figures.length - 1);
+      });
+    }
+
+    arrows.forEach(function (a) {
+      a.addEventListener("click", function () { go(aktuell() + Number(a.dataset.dir)); });
+    });
+
+    var timer;
+    track.addEventListener("scroll", function () {
+      clearTimeout(timer);
+      timer = setTimeout(markieren, 90);
+    });
+
+    window.addEventListener("resize", markieren);
+    markieren();
+  });
+})();
