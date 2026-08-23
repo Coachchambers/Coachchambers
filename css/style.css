@@ -929,3 +929,12 @@ a { color: var(--terracotta); }
   .phone.mid { transform: none; }
   .site-footer .wrap { flex-direction: column; text-align: center; }
 }
+
+/* ---------- Rechtstexte: Impressum, Datenschutz ---------- */
+.legal .wrap { max-width: 760px; }
+.legal h1 { font-family: var(--serif); font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.12; margin-bottom: 14px; }
+.legal .legal-lead { color: var(--ink-soft, #5c5c54); font-size: 1.02rem; margin-bottom: 40px; }
+.legal h2 { font-family: var(--serif); font-size: 1.28rem; font-weight: 700; margin: 40px 0 12px; }
+.legal p { line-height: 1.7; margin-bottom: 14px; overflow-wrap: anywhere; }
+.legal a { color: var(--terracotta); text-decoration: underline; text-underline-offset: 3px; }
+.legal a:hover { color: var(--teal); }
