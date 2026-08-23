@@ -1107,13 +1107,12 @@ a { color: var(--terracotta); }
 /* Bild im Werdegang */
 .beleg { margin: 0 0 26px; }
 
+/* Kein Beschnitt: bei einer Übung muss die ganze Ausführung sichtbar sein,
+   also Kopf, Rumpf, Knie und Füße. */
 .beleg img {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
-  object-position: center 30%;
   border-radius: 16px;
 }
 
