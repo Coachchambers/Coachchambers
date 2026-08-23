@@ -20,3 +20,18 @@ Leg zuerst **Kundinnen** an, dann **Preise**. Instagram zeigt Highlights in der 
 - Lade die Bilder als **Story hoch**, nicht als Feed-Post, sonst werden sie beschnitten.
 - Poste sie am besten zu einer Zeit, zu der ohnehin wenig los ist (z. B. spät abends), falls du nicht willst, dass sie als reguläre Story im Feed deiner Follower zusätzlich auffallen. Sie verschwinden nach 24 Stunden aus dem Story-Ring, bleiben aber dauerhaft im Highlight.
 - Beide Highlights lassen sich jederzeit erweitern. Sobald du neue Kundenstimmen hast, einfach eine neue Story posten und dem bestehenden Highlight hinzufügen.
+
+## Nachtrag 23.08.2026: CTA korrigiert
+
+Die letzte Story beider Sets sagte ursprünglich „Link in der Bio". Das war ein Denkfehler.
+
+Wer die Preis-Stories durchgetippt hat, kennt die Preise bereits. Ihn auf die Website zu schicken, damit er dort dieselben Preise sieht und anschließend über eine Preiskachel wieder in die Instagram-DM landet, ist eine Runde im Kreis. Bei jedem Wechsel zwischen App und Browser springen Leute ab.
+
+Deshalb: **Im Highlight ist der CTA die Story-Antwort, nicht der Bio-Link.** Das Antwortfeld ist beim Ansehen ohnehin eingeblendet, das sind null Klicks.
+
+- `s4.png` in beiden Sets zeigt jetzt „Antworte mit START".
+- **Kein Link-Sticker** auf den Preis-Stories.
+
+Der Bio-Link bleibt richtig bei **Feed-Posts**. Da kennt der Leser weder Angebot noch Preis, und eine Seite anzuschauen ist anonymer als eine Direktnachricht.
+
+Der Bio-Link ist ausserdem richtig, wenn das Ziel etwas ist, das nur die Website leisten kann: die digitalen Guides bei Digistore24, die Unterseiten zu Personal Training und Ernährungsberatung, die Kundenstimmen im Detail.
