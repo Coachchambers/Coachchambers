@@ -162,6 +162,22 @@ Sag Bescheid, dann trage ich es auf der Seite und im Preis-Schema nach.
 
 ---
 
+## Nachtrag: geschäftliche Telefonnummer
+
+Seit dem 23.08.2026 gibt es eine eigene Nummer für Chambers Performance: **0152 33956300**.
+
+Auf der Website, im Impressum, in der Widerrufsseite, im Firmen-Schema und in der `llms.txt` ist sie bereits eingetragen.
+
+**Nachziehen musst du sie noch bei:**
+
+- Google Unternehmensprofil (Feld Telefon)
+- Instagram, im Profi-Konto unter Kontaktoptionen
+- Nutrilize, falls dort eine Nummer hinterlegt ist
+- Digistore24, im Verkäuferprofil
+- allen Verzeichnissen aus `content/Verzeichnisse/eintraege.md`, sobald du sie anlegst
+
+Wichtig ist, dass die Nummer überall zeichengenau gleich steht. Google gleicht Name, Adresse und Telefon über Quellen hinweg ab, und eine abweichende Nummer schwächt genau das Signal.
+
 ## Erwartungshorizont
 
 | Zeitraum | Was realistisch passiert |

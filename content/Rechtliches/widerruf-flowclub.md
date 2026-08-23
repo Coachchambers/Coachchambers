@@ -27,7 +27,7 @@ des Vertragsabschlusses.
 
 Um dein Widerrufsrecht auszuüben, musst du mich
 Jamie Heintze, Auf der Ostenheide 17, 58239 Schwerte
-Telefon 0152 06321972, E-Mail growwithchambers@gmail.com
+Telefon 0152 33956300, E-Mail growwithchambers@gmail.com
 mittels einer eindeutigen Erklärung (z. B. per Brief oder E-Mail) über deinen
 Entschluss, diesen Vertrag zu widerrufen, informieren. Zur Wahrung der Frist
 reicht es, dass du die Mitteilung vor Ablauf der Widerrufsfrist absendest.

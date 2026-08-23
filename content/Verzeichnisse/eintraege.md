@@ -16,7 +16,7 @@ Inhaber:         Jamie Heintze
 Straße:          Auf der Ostenheide 17
 PLZ, Ort:        58239 Schwerte
 Land:            Deutschland
-Telefon:         0152 06321972
+Telefon:         0152 33956300
 E-Mail:          growwithchambers@gmail.com
 Website:         https://coach-chambers.de
 Kategorie:       Personal Trainer
