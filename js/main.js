@@ -57,6 +57,17 @@
     if (href.indexOf("nutrilize") > -1) return ["erstgespraech-buchen", "Klick auf Erstgespräch buchen"];
     if (href.indexOf("720928") > -1) return ["guide-pullup", "Klick auf Pull-Up Guide"];
     if (href.indexOf("723624") > -1) return ["guide-ernaehrung", "Klick auf Ernährungs-Guide"];
+    if (href.indexOf("wa.me") > -1) {
+      var karte = el.closest(".price-card");
+      if (karte) {
+        var t = karte.querySelector("h3");
+        var paket = (t ? t.innerText : "Paket").trim().toLowerCase()
+          .replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss")
+          .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+        return ["whatsapp-" + paket, "WhatsApp zu " + (t ? t.innerText.trim() : "")];
+      }
+      return ["whatsapp-allgemein", "Klick auf WhatsApp schreiben"];
+    }
     if (href.indexOf("instagram") > -1) {
       var card = el.closest(".price-card");
       if (card) {
