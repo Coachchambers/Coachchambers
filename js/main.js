@@ -78,3 +78,30 @@
     if (l) track(l[0], l[1]);
   });
 })();
+
+// Aufklappbares Menü für schmale Displays. Ohne Skript bleibt das Menü
+// im Quelltext vorhanden, nur eingeklappt.
+(function () {
+  var toggle = document.querySelector(".navtoggle");
+  var menu = document.getElementById("hauptmenue");
+  if (!toggle || !menu) return;
+
+  function setOpen(open) {
+    menu.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.setAttribute("aria-label", open ? "Menü schließen" : "Menü öffnen");
+  }
+
+  toggle.addEventListener("click", function () {
+    setOpen(toggle.getAttribute("aria-expanded") !== "true");
+  });
+
+  // Nach dem Sprung zum Abschnitt wieder zuklappen.
+  menu.addEventListener("click", function (e) {
+    if (e.target.closest("a")) setOpen(false);
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") setOpen(false);
+  });
+})();

@@ -275,16 +275,19 @@
       <a class="mark" href="#" aria-label="CP Coaching Startseite">
         <img src="images/brand/cp-coaching-logo-teal-transparent.png" alt="CP Coaching" width="420" height="346" loading="eager" fetchpriority="high" decoding="async">
       </a>
-      <nav class="navlinks">
-        <a href="#about">Über mich</a>
+      <nav class="navlinks" id="hauptmenue">
         <a href="#method">Methode</a>
+        <a href="#about">Über mich</a>
         <a href="#app">App</a>
         <a href="#pricing">Angebot</a>
         <a href="#guides">Guides</a>
         <a href="#testimonials">Stimmen</a>
         <a href="#faq">FAQ</a>
       </nav>
-      <a class="navcta" href="https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn" target="_blank" rel="noopener">Erstgespräch, kostenlos</a>
+      <button class="navtoggle" type="button" aria-label="Menü öffnen" aria-expanded="false" aria-controls="hauptmenue">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="navcta" href="https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn" target="_blank" rel="noopener">Erstgespräch<span class="ctalang">, kostenlos</span></a>
     </div>
   </header>
 
@@ -323,6 +326,37 @@
       <span>Hybrid Training</span><span>Ernährungscoaching</span><span>Personal Training Schwerte</span><span>Online-Coaching per App</span><span>Für alle ab 30</span><span>Echt statt überinszeniert</span>
     </div>
 
+    <section class="section method-section reveal" id="method">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="kicker">Die Methode</span></div>
+          <div>
+            <h2>Drei Wege, ein System.</h2>
+            <p>Egal wo du startest, alles läuft auf dasselbe Ziel zu: nachhaltige Performance statt kurzfristiger Ästhetik.</p>
+          </div>
+        </div>
+        <div class="method-grid">
+          <div class="method-card">
+            <span class="num">01</span>
+            <h3>Online-Coaching</h3>
+            <p>Individueller Trainingsplan über die eigene App, abgestimmt auf Laufen, Kraft und Mobility. Der ortsunabhängige Einstieg.</p>
+          </div>
+          <div class="method-card">
+            <span class="num">02</span>
+            <h3>Personal Training</h3>
+            <p>1:1 Training im Umkreis Schwerte, direkt vor Ort begleitet. Für alle, die engmaschige persönliche Betreuung wollen.</p>
+            <a class="method-link" href="personal-training-schwerte/">Mehr zum Personal Training &rarr;</a>
+          </div>
+          <div class="method-card">
+            <span class="num">03</span>
+            <h3>Ernährungscoaching</h3>
+            <p>Kein Standardplan. Ein Lauftag braucht ein anderes Timing als ein schwerer Krafttag, dein Plan berücksichtigt das.</p>
+            <a class="method-link" href="ernaehrungsberatung-schwerte/">Mehr zur Ernährungsberatung &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section reveal" id="about">
       <div class="wrap">
         <div class="section-head">
@@ -351,37 +385,6 @@
             <div class="about-tags">
               <span>3. Platz BJJ WM</span><span>2 Jahre Crossfit</span><span>Coaching seit 2017</span><span>Hybrid Training</span><span>Ernährungscoaching</span>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section method-section reveal" id="method">
-      <div class="wrap">
-        <div class="section-head">
-          <div><span class="kicker">Die Methode</span></div>
-          <div>
-            <h2>Drei Wege, ein System.</h2>
-            <p>Egal wo du startest, alles läuft auf dasselbe Ziel zu: nachhaltige Performance statt kurzfristiger Ästhetik.</p>
-          </div>
-        </div>
-        <div class="method-grid">
-          <div class="method-card">
-            <span class="num">01</span>
-            <h3>Online-Coaching</h3>
-            <p>Individueller Trainingsplan über die eigene App, abgestimmt auf Laufen, Kraft und Mobility. Der ortsunabhängige Einstieg.</p>
-          </div>
-          <div class="method-card">
-            <span class="num">02</span>
-            <h3>Personal Training</h3>
-            <p>1:1 Training im Umkreis Schwerte, direkt vor Ort begleitet. Für alle, die engmaschige persönliche Betreuung wollen.</p>
-            <a class="method-link" href="personal-training-schwerte/">Mehr zum Personal Training &rarr;</a>
-          </div>
-          <div class="method-card">
-            <span class="num">03</span>
-            <h3>Ernährungscoaching</h3>
-            <p>Kein Standardplan. Ein Lauftag braucht ein anderes Timing als ein schwerer Krafttag, dein Plan berücksichtigt das.</p>
-            <a class="method-link" href="ernaehrungsberatung-schwerte/">Mehr zur Ernährungsberatung &rarr;</a>
           </div>
         </div>
       </div>
@@ -496,19 +499,20 @@
           <a class="price-card" data-package="2 Monate Komplett" href="https://www.instagram.com/chambers.body.performance" target="_blank" rel="noopener">
             <h3>2 Monate Komplett</h3>
             <div class="price">100&nbsp;€<small>/Mo</small></div>
-            <div class="price-detail">200&nbsp;€ gesamt</div>
+            <div class="price-detail">200&nbsp;€ gesamt <b class="spar">40&nbsp;€ gespart</b></div>
             <span class="dm-hint">Schreib mir &bdquo;2MONATE&ldquo;</span>
           </a>
           <a class="price-card" data-package="3 Monate Komplett" href="https://www.instagram.com/chambers.body.performance" target="_blank" rel="noopener">
             <h3>3 Monate Komplett</h3>
             <div class="price">90&nbsp;€<small>/Mo</small></div>
-            <div class="price-detail">270&nbsp;€ gesamt</div>
+            <div class="price-detail">270&nbsp;€ gesamt <b class="spar">90&nbsp;€ gespart</b></div>
             <span class="dm-hint">Schreib mir &bdquo;3MONATE&ldquo;</span>
           </a>
-          <a class="price-card" data-package="6 Monate Komplett" href="https://www.instagram.com/chambers.body.performance" target="_blank" rel="noopener">
+          <a class="price-card feat" data-package="6 Monate Komplett" href="https://www.instagram.com/chambers.body.performance" target="_blank" rel="noopener">
+            <span class="flag">Bester Preis</span>
             <h3>6 Monate Komplett</h3>
             <div class="price">80&nbsp;€<small>/Mo</small></div>
-            <div class="price-detail">480&nbsp;€ gesamt, bester Preis</div>
+            <div class="price-detail">480&nbsp;€ gesamt <b class="spar">240&nbsp;€ gespart</b></div>
             <span class="dm-hint">Schreib mir &bdquo;6MONATE&ldquo;</span>
           </a>
         </div>
