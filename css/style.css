@@ -1052,23 +1052,99 @@ a { color: var(--terracotta); }
 
 /* ===== FOTOS VOM COACH ===== */
 
-/* Beleg für das Wettkampfergebnis im Werdegang */
-.beleg { margin: 0 0 24px; }
+/* Hochformat-Porträt in der Hero-Spalte. Der Text sitzt als Bildunterschrift
+   auf dem unteren Teil, damit Bild und Aussage eine Einheit bilden. */
+.portrait {
+  position: relative;
+  margin: 0 0 8px;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px -30px rgba(15, 40, 40, 0.55);
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center 22%;
+}
+
+.portrait figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 96px 30px 30px;
+  background: linear-gradient(to top, rgba(9, 24, 24, 0.96) 42%, rgba(9, 24, 24, 0.72) 68%, transparent);
+  color: var(--cream);
+}
+
+.portrait .tag {
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--terracotta-light);
+  font-weight: 700;
+  margin: 0;
+}
+
+.portrait h2 {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  line-height: 1.2;
+  margin: 12px 0 10px;
+  color: var(--cream);
+}
+
+.portrait figcaption p:last-child {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: rgba(243, 232, 214, 0.82);
+  margin: 0;
+}
+
+/* Bild im Werdegang */
+.beleg { margin: 0 0 26px; }
 
 .beleg img {
   display: block;
   width: 100%;
-  height: auto; /* ohne das gewinnt das height-Attribut und das Bild wird verzerrt */
-  aspect-ratio: 623 / 576;
+  height: auto;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: center 30%;
   border-radius: 16px;
-  border: 1px solid rgba(243, 232, 214, 0.18);
 }
 
-.beleg figcaption {
-  margin-top: 10px;
-  font-size: 0.76rem;
-  letter-spacing: 0.04em;
-  color: rgba(243, 232, 214, 0.6);
+/* Bild und Aussage nebeneinander über den Methodenkarten.
+   Das Bild wird bewusst nicht beschnitten, sonst fehlt der Kopf. */
+.band {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 44px;
+  align-items: center;
+  margin: 0 0 52px;
 }
 
+.band img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.band figcaption {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.3rem, 2.2vw, 1.9rem);
+  line-height: 1.35;
+  color: var(--cream);
+}
+
+@media (max-width: 640px) {
+  .portrait figcaption { padding: 72px 22px 24px; }
+  .portrait h2 { font-size: 1.25rem; }
+  .band { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .band figcaption { font-size: 1.15rem; }
+}
