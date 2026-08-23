@@ -761,8 +761,18 @@ a { color: var(--terracotta); }
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  flex-wrap: wrap;
   padding-top: 20px;
   border-top: 1px dashed var(--line);
+}
+
+/* Der Beschriftungstext darf nie umbrechen, sonst kippt der Pfeil in eine zweite Zeile. */
+.guide-buy .btn { white-space: nowrap; }
+
+/* Wird es eng, steht der Preis über einem Button auf voller Breite. */
+@media (max-width: 460px) {
+  .guide-buy { flex-direction: column; align-items: stretch; gap: 14px; }
+  .guide-buy .btn { justify-content: center; }
 }
 
 .guide-price { font-family: var(--serif); font-weight: 700; font-size: 1.7rem; color: var(--terracotta); }
