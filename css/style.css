@@ -26,7 +26,9 @@ body {
   line-height: 1.6;
 }
 
-img { max-width: 100%; display: block; }
+/* height: auto verhindert, dass ein height-Attribut im HTML das Seitenverhältnis
+   überstimmt und Bilder verzerrt. Wer bewusst zuschneidet, setzt height selbst. */
+img { max-width: 100%; height: auto; display: block; }
 
 .wrap {
   max-width: var(--wrap);
@@ -1050,22 +1052,15 @@ a { color: var(--terracotta); }
 
 /* ===== FOTOS VOM COACH ===== */
 
-.hero-card.has-foto { padding-top: 0; overflow: hidden; }
-
-.hero-foto {
-  width: calc(100% + 60px);
-  max-width: none; /* hebt die globale Deckelung auf, sonst bleibt rechts ein Rand */
-  margin: 0 -30px 26px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center 28%;
-}
-
 /* Beleg für das Wettkampfergebnis im Werdegang */
 .beleg { margin: 0 0 24px; }
 
 .beleg img {
+  display: block;
   width: 100%;
+  height: auto; /* ohne das gewinnt das height-Attribut und das Bild wird verzerrt */
+  aspect-ratio: 623 / 576;
+  object-fit: cover;
   border-radius: 16px;
   border: 1px solid rgba(243, 232, 214, 0.18);
 }
@@ -1077,6 +1072,3 @@ a { color: var(--terracotta); }
   color: rgba(243, 232, 214, 0.6);
 }
 
-@media (max-width: 1000px) {
-  .hero-foto { height: 260px; }
-}
