@@ -1,236 +1,205 @@
-# Nächste Schritte, CP Coaching
+# Offene Aufgaben, CP Coaching
 
-Stand: 23. August 2026. Website live unter https://coach-chambers.de
+Stand: 24. August 2026. Website live unter https://coach-chambers.de
 
-Diese Liste ist zum Abarbeiten gedacht. Alles hier sind Aufgaben **außerhalb** der Website,
-also in Google, Instagram und im direkten Kundenkontakt. An der Website selbst ist nichts offen.
+An der Website selbst ist nichts offen. Alles hier sind Aufgaben in Google,
+Instagram, Digistore24 und im direkten Kundenkontakt, also Dinge, die nur du
+in deinen eigenen Konten erledigen kannst.
+
+**So arbeitest du das ab:** von oben nach unten. Die Liste ist nach Hebel
+sortiert, nicht nach Aufwand. Erledigtes hakst du mit einem `x` in der Klammer
+ab. Wenn du an einem Punkt Material erzeugst, also einen Link, einen Text oder
+ein Foto, gib es mir, dann trage ich es auf der Website nach.
 
 ---
 
-## Was bereits erledigt ist
+## A. Diese Woche, größter Hebel
 
-| Bereich | Stand |
+### A1. Google-Bewertungen einsammeln
+
+Bewertungen sind bei lokaler Suche der stärkste Ranking-Faktor. In Schwerte hat
+die Konkurrenz kaum welche, zwei bis drei echte Bewertungen bringen dich weit nach vorne.
+
+- [ ] Im Google Unternehmensprofil den Bewertungslink holen (`g.page/r/...`)
+- [ ] Link an **Kerstin S.** schicken
+- [ ] Link an **Denise** schicken
+- [ ] Nach etwa einer Woche höchstens **eine** Erinnerung, dann Ruhe
+
+Fertige Texte liegen in `content/Bewertungen/anfrage-texte.md`. Beide haben dir
+schon schriftlich Feedback gegeben, du bittest also nur darum, es dort einzutragen.
+
+Nicht mit Rabatten oder Geschenken locken. Google verbietet gekaufte Bewertungen
+und entfernt im Zweifel das ganze Profil.
+
+### A2. Fotos ins Google-Profil
+
+Profile mit Fotos werden deutlich häufiger angeklickt. Mindestens fünf.
+
+- [ ] Logo als Profilbild
+- [ ] Titelbild, du selbst, klar erkennbar
+- [ ] zwei bis drei echte Trainingssituationen
+
+**Nicht** das Vorher-Nachher-Foto von Denise hochladen. Auf der Website ist es
+abgesprochen und in Ordnung, bei Google verstößt es gegen die Richtlinien zu
+Gesundheitsversprechen.
+
+### A3. Search Console, Prüfung anstoßen
+
+- [ ] Search Console öffnen, Bereich **Händlereinträge**, auf
+      **Fehlerbehebung überprüfen** klicken
+
+Die vier gemeldeten Punkte sind seit dem 24.08. im Code behoben. Google crawlt
+nach dem Klick neu, Ergebnis kommt in ein paar Tagen.
+
+---
+
+## B. Kurz und schnell erledigt
+
+### B1. Telefonnummer nachziehen
+
+Neue Geschäftsnummer: **015233956300**. Sie muss überall zeichengenau gleich
+stehen, Google gleicht Name, Adresse und Telefon über Quellen hinweg ab.
+
+- [x] Website, Impressum, Widerruf, Schema, llms.txt
+- [x] Google Unternehmensprofil
+- [ ] Instagram, im Profi-Konto unter Kontaktoptionen
+- [ ] Nutrilize, falls dort eine Nummer hinterlegt ist
+- [ ] Digistore24, im Verkäuferprofil
+
+### B2. Bing Webmaster Tools
+
+https://www.bing.com/webmasters
+
+- [ ] Mit dem Google-Konto anmelden und die Search Console importieren
+- [ ] Sitemap eintragen: `https://coach-chambers.de/sitemap.xml`
+
+Dauert zwei Minuten. Der Grund: Bing liefert die Suchergebnisse für ChatGPT.
+
+### B3. Buchungslink im Google-Profil prüfen
+
+- [ ] Im Profil unter **Termin vereinbaren** bzw. **Buchungslink** muss stehen:
+      `https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn`
+
+Google zeigt dann einen Terminbutton direkt im Suchergebnis, noch bevor jemand
+deine Website öffnet.
+
+### B4. Google Ads Gutschein
+
+- [ ] Das Angebot über 400 Euro vorerst ablehnen
+
+Es ist ein Matching-Gutschein, du musst selbst 400 Euro ausgeben, um ihn zu
+bekommen. Anzeigen lohnen sich erst, wenn feststeht, dass Anfragen über die
+Seite auch zu Kunden werden.
+
+---
+
+## C. Instagram
+
+### C1. Highlights hochladen
+
+Fertige Bildsets liegen in `content/Instagram_Highlights/`, jeweils mit Cover
+und Anleitung im Ordner.
+
+- [x] `Preise/`
+- [ ] `Kundinnen/`
+- [ ] `Testwoche/`
+
+Ablauf: als Story hochladen, dann zum Highlight hinzufügen, Cover setzen.
+
+### C2. Posting-Rhythmus
+
+Neun fertige Posts mit Bildern und Texten liegen in `content/`, jeder mit einem
+eigenen Handlungsaufruf. Plan sind fünf Posts pro Woche, siehe
+`content/Instagram_Funnel/bio-und-ctas.md`.
+
+- [ ] Wochenplan festlegen und die ersten fünf Posts einplanen
+
+---
+
+## D. Digistore24
+
+### D1. Cover als Produktbild
+
+Die beiden Cover liegen unter `images/guides/`.
+
+- [ ] `guide-pullup-cover.jpg` beim Produkt 720928 hinterlegen
+- [ ] `guide-ernaehrung-cover.jpg` beim Produkt 723624 hinterlegen
+
+### D2. Bewertungen der Guides ermöglichen
+
+Google meldet bei den Guides "Feld review fehlt" und "Feld aggregateRating fehlt".
+Das sind Empfehlungen, keine Fehler, die Guides werden weiter normal angezeigt.
+Sie verschwinden erst mit echten Käuferbewertungen.
+
+- [ ] Bei beiden Produkten die automatische Nachfass-Mail aktivieren, die
+      Käufer ein paar Tage nach dem Download um Rückmeldung bittet
+- [ ] Bei bekannten Käufern direkt nachfragen
+
+Sobald echte Bewertungen mit Namen vorliegen: her damit, dann trage ich sie ein
+und Google zeigt Sterne. Erfundene Bewertungen sind nach Paragraf 5b Absatz 3
+UWG unzulässig und Google entfernt die Rich Results dauerhaft, wenn es auffällt.
+
+### D3. E-Mail-Adressen exportieren
+
+- [ ] Käuferliste exportieren, damit die Adressen nicht nur bei Digistore liegen
+
+---
+
+## E. Material, das mir noch fehlt
+
+### E1. Foto von dir beim Coachen
+
+Das ist die einzige echte Lücke im Bildmaterial. Auf der Seite bist du bisher
+nur allein zu sehen, beim BJJ und beim Training. Was fehlt, ist eine Aufnahme
+aus einer echten Betreuungssituation, du und eine Kundin, du korrigierst oder
+erklärst gerade etwas.
+
+- [ ] Foto machen lassen, Einverständnis der Kundin schriftlich einholen
+- [ ] Mir schicken, dann binde ich es ein
+
+Ohne Einverständnis geht es nicht ins Netz. Eine kurze Nachricht mit
+"Ja, du darfst das Foto auf deiner Website und bei Instagram verwenden" reicht.
+
+### E2. Steuernummer fürs Impressum
+
+- [ ] Steuernummer oder Umsatzsteuer-Identifikationsnummer nachreichen,
+      **oder** mir sagen, dass du Kleinunternehmer nach Paragraf 19 UStG bist
+
+Aktuell steht im Impressum bewusst gar nichts dazu. Das ist zulässig, solange
+keine Umsatzsteuer-ID existiert, denn Paragraf 5 DDG verlangt sie nur
+"soweit vorhanden". Sobald du eine hast, muss sie rein.
+
+### E3. Verzeichniseinträge
+
+Vorbereitete Liste mit allen Daten in `content/Verzeichnisse/eintraege.md`.
+Jeder Eintrag ist ein Signal für die lokale Suche.
+
+- [ ] Einträge anlegen, dabei die **neue** Telefonnummer verwenden
+
+---
+
+## Was erledigt ist
+
+Website komplett, drei Landingpages, Impressum, Datenschutz, Widerruf, eigene
+Domain mit HTTPS, Preis-Schema für Google und KI-Assistenten, beide Guides
+verlinkt, echte Kundenstimmen, robots.txt, llms.txt, sitemap.xml,
+Search Console mit eingereichter Sitemap, GoatCounter ohne Cookies,
+Online-Terminbuchung über Nutrilize, WhatsApp Business mit vorformulierter
+Frage je Angebot, Produktdaten der Guides für Google.
+
+Im Google-Profil erledigt: Bestätigung, Dienstleistungen korrigiert,
+Beschreibung eingetragen, Telefonnummer.
+
+---
+
+## Was realistisch wann passiert
+
+| Zeitraum | Was passiert |
 |---|---|
-| Website Startseite | live, mobil geprüft bei 320, 375 und 414 Pixel |
-| Unterseite Personal Training Schwerte | live, eigene Preise, eigene FAQ |
-| Unterseite Ernährungsberatung Schwerte | live, eigene FAQ |
-| Eigene Domain coach-chambers.de | verbunden, HTTPS aktiv |
-| Preis-Schema für Google und KI-Assistenten | alle Angebote hinterlegt |
-| Digitale Guides, Digistore24 | beide verlinkt, Pull-Up 19,49 €, Ernährung 9,99 € |
-| Kundenstimmen mit echten Namen | Kerstin S. und Denise, Foto freigegeben |
-| robots.txt, llms.txt, sitemap.xml | eingerichtet, KI-Crawler erlaubt |
-| Google Search Console | Domain-Property bestätigt, Sitemap eingereicht |
-
----
-
-## Aufgabe 1: Google Unternehmensprofil fertigstellen
-
-**Hebel: sehr hoch.** Ohne bestätigtes Profil erscheinst du bei „Personal Trainer Schwerte"
-nicht in der Kartenansicht, und genau die steht bei lokalen Suchen ganz oben.
-
-**https://business.google.com**
-
-### 1a. Bestätigung per Video abschließen
-
-Google verlangt ein Video. Das Problem: du hast kein Studio und kein Equipment zum Zeigen.
-Was im Video vorkommen muss, damit Google es akzeptiert:
-
-- Der Ort, an dem du arbeitest. Bei dir also der Weg zu einem Kundentermin oder dein Trainingsbereich.
-- Ein Beleg, dass du das Unternehmen führst. Zum Beispiel dein Handy mit dem geöffneten
-  Instagram-Profil, ein Gewerbeschein, oder Trainingsmaterial mit deinem Logo.
-- Durchgehend in einer Aufnahme, ohne Schnitt. Zwischen 30 Sekunden und 5 Minuten.
-
-Mit einer Kundin im Bild ist erlaubt, wenn sie einverstanden ist. Das wirkt sogar glaubwürdiger,
-weil eine echte Trainingssituation zu sehen ist.
-
-### 1b. Dienstleistungen korrigieren
-
-**Entfernen:** Schwimmen. Bietest du nicht an, und es verwässert die Kategorie.
-
-**Hinzufügen, genau diese Bezeichnungen:**
-
-- Personal Training
-- Hybrid Training
-- Krafttraining
-- Ausdauertraining
-- Mobility Training
-- Ernährungsberatung
-- Online Coaching
-- Trainingsplanerstellung
-
-### 1c. Beschreibung eintragen
-
-Google verbietet in der Beschreibung Links, Preise und Werbesprache. Dieser Text hält sich daran:
-
-> Ich bin Coach Chambers und trainiere Menschen ab 30 in Schwerte und Umgebung. Mein Ansatz
-> ist Hybrid Training: Laufen, Krafttraining und Mobility werden nicht getrennt betrachtet,
-> sondern in einem gemeinsamen System geplant. Dazu kommt eine Ernährungsberatung, die zur
-> jeweiligen Trainingsform passt, weil ein Lauftag ein anderes Timing braucht als ein schwerer
-> Krafttag. Personal Training findet bei dir zuhause oder im Umkreis Schwerte statt, mit
-> Körpergewicht und einfachen Mitteln, ein Studio ist nicht nötig. Alternativ betreue ich
-> ortsunabhängig über eine eigene Coaching-App mit individuellem Trainingsplan. Mein
-> Hintergrund liegt im Kampfsport, unter anderem Brazilian Jiu-Jitsu mit einem dritten Platz
-> bei den Novice Weltmeisterschaften in Las Vegas, dazu zwei Jahre Crossfit. Seit 2017 coache
-> ich, angefangen bei Freunden und Teamkollegen.
-
-### 1d. Fotos hochladen
-
-Mindestens fünf. Profile mit Fotos werden deutlich häufiger angeklickt.
-
-- Logo als Profilbild
-- Du selbst, erkennbar, als Titelbild
-- Zwei bis drei echte Trainingssituationen
-
-**Wichtig:** Das Vorher-Nachher-Foto von Denise **nicht** bei Google hochladen. Auf der
-eigenen Website ist es abgesprochen und in Ordnung. Google ist eine andere Öffentlichkeit,
-und Vorher-Nachher-Bilder verstoßen dort gegen die Richtlinien für Gesundheitsversprechen.
-
-### 1e. Google Ads Gutschein
-
-Das Angebot über 400 € ist ein Matching-Gutschein: du musst selbst 400 € ausgeben, um ihn
-zu bekommen. Vorerst ablehnen. Bezahlte Anzeigen lohnen sich erst, wenn feststeht, dass
-Anfragen über die Seite auch zu Kunden werden. Sonst zahlst du dafür, einen ungetesteten
-Weg zu befüllen.
-
----
-
-## Aufgabe 2: Google-Bewertungen einsammeln
-
-**Hebel: sehr hoch.** Bewertungen sind bei lokaler Suche der wichtigste Ranking-Faktor.
-Zwei bis drei echte Bewertungen bringen dich in Schwerte weit nach vorne, weil die
-Konkurrenz dort ebenfalls kaum welche hat.
-
-Sobald das Profil bestätigt ist, gibt Google dir einen Bewertungslink. Den an Kerstin S.
-und Denise schicken. Beide haben dir bereits schriftliches Feedback gegeben, das ist die
-einfachste Bitte, die du stellen kannst.
-
-Textvorschlag:
-
-> Hey, mein Google-Profil ist online. Falls du kurz Zeit hast: Eine Bewertung dort hilft mir
-> gerade richtig weiter, weil ich darüber lokal gefunden werde. Zwei Sätze reichen völlig,
-> gern das, was du mir eh schon geschrieben hast. Hier der Link: [LINK]
-
-Nicht mehr als eine Erinnerung hinterherschicken.
-
----
-
-## Aufgabe 3: Instagram-Funnel scharfstellen
-
-Vorlagen liegen in `content/Instagram_Funnel/bio-und-ctas.md`.
-
-### 3a. Bio setzen
-
-Link im Profil auf `https://coach-chambers.de` setzen, nicht auf Linktree. Ein Klick weniger,
-und die Website ist bereits der Verteiler.
-
-### 3b. Highlights anlegen
-
-Zwei fertige Highlight-Sets liegen in `content/Instagram_Highlights/`:
-
-- `Preise/` mit vier Story-Bildern und einem Cover
-- `Kundinnen/` mit vier Story-Bildern und einem Cover
-
-Als Story hochladen, dann jeweils zu einem Highlight hinzufügen und das Cover setzen.
-Anleitung liegt im jeweiligen Ordner.
-
-### 3c. Posting-Rhythmus starten
-
-Neun fertige Posts mit Bildern und Texten liegen in `content/`. Fünf Posts pro Woche ist
-der Plan aus der Funnel-Datei. Jeder Post hat einen eigenen Handlungsaufruf, keine
-Wiederholung derselben Zeile.
-
----
-
-## Aufgabe 4: Bing Webmaster Tools
-
-**https://www.bing.com/webmasters**
-
-Dauert zwei Minuten, weil sich das Google-Konto verknüpfen lässt und die Search Console
-importiert wird. Der Grund: Bing liefert die Suchergebnisse für ChatGPT.
-
-Sitemap dort ebenfalls eintragen: `https://coach-chambers.de/sitemap.xml`
-
----
-
-## Aufgabe 5: Offene Entscheidung, Anfahrtsradius
-
-Auf der Personal-Training-Seite steht aktuell nur „Anfahrt im Umkreis Schwerte inklusive".
-Das ist unscharf, und bei einer Anfrage aus Dortmund-Süd stehst du ohne Regel da.
-
-Vorschlag zur Entscheidung: bis 15 Kilometer inklusive, darüber 0,50 € pro Kilometer.
-Sag Bescheid, dann trage ich es auf der Seite und im Preis-Schema nach.
-
----
-
-## Nachtrag: geschäftliche Telefonnummer
-
-Seit dem 23.08.2026 gibt es eine eigene Nummer für Chambers Performance: **0152 33956300**.
-
-Auf der Website, im Impressum, in der Widerrufsseite, im Firmen-Schema und in der `llms.txt` ist sie bereits eingetragen.
-
-**Nachziehen musst du sie noch bei:**
-
-- ~~Google Unternehmensprofil (Feld Telefon)~~ erledigt
-- Instagram, im Profi-Konto unter Kontaktoptionen
-- Nutrilize, falls dort eine Nummer hinterlegt ist
-- Digistore24, im Verkäuferprofil
-- allen Verzeichnissen aus `content/Verzeichnisse/eintraege.md`, sobald du sie anlegst
-
-Wichtig ist, dass die Nummer überall zeichengenau gleich steht. Google gleicht Name, Adresse und Telefon über Quellen hinweg ab, und eine abweichende Nummer schwächt genau das Signal.
-
-## Erwartungshorizont
-
-| Zeitraum | Was realistisch passiert |
-|---|---|
-| Tag 1 bis 3 | Google findet alle drei Seiten über die Sitemap |
-| Woche 1 bis 2 | Seiten erscheinen bei der Suche nach „Coach Chambers" und „CP Coaching" |
-| Woche 2 bis 4 | Unternehmensprofil erscheint in der Kartenansicht, sofern per Video bestätigt |
-| Monat 2 bis 3 | erste Platzierungen bei „hybrid training schwerte", dort ist der Wettbewerb praktisch null |
-| Monat 3 bis 6 | Chance auf vordere Plätze bei „personal trainer schwerte", abhängig von Bewertungen |
-
-SEO wirkt nicht in Tagen. Der Instagram-Funnel bringt schneller Anfragen. SEO ist das
-Fundament, das in einem halben Jahr trägt, ohne tägliches Posten.
-
----
-
-## Nachtrag 23.08.2026: Online-Terminbuchung
-
-Das Erstgespräch ist jetzt direkt buchbar über Nutrilize:
-`https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn`
-
-**Auf der Website umgestellt.** Alle Erstgespräch-Buttons führen auf die Buchungsseite: Navigationsleiste, Hero, App-Bereich, die Erstgespräch-Preiskachel, der Button unter den Preisen und der Kontaktbereich, auf allen drei Seiten. Die bezahlten Pakete behalten ihren Weg in die Instagram-DM mit Codewort, damit du am Codewort siehst, worum es geht.
-
-**Noch offen, an dich:**
-
-- **Instagram-Bio:** Der Link zeigt auf `coach-chambers.de`. Das bleibt richtig, weil die Seite mehr zeigt als nur den Buchungskalender. Wenn du irgendwann zwei Links willst, erlaubt Instagram bis zu fünf.
-- **Google Unternehmensprofil:** Dort gibt es ein Feld **Termin vereinbaren** bzw. **Buchungslink**. Da gehört die Nutrilize-Adresse rein. Google zeigt daraufhin einen Terminbutton direkt im Suchergebnis, noch bevor jemand deine Website öffnet.
-- **Highlight „Preise":** Die letzte Story sagt „Antworte mit START". Sobald du magst, kann daraus ein Link-Sticker direkt auf die Buchungsseite werden. Das ist kein Umweg mehr, weil die Buchung etwas ist, das die Story selbst nicht kann.
-
-## Google Search Console, Haendlereintraege der Guides
-
-Erledigt am 24.08.2026. Ergaenzt wurden Cover-Bilder, Marke, Verkaeufer
-(Digistore24 GmbH), Versandangaben (0 Euro, Sofort-Download) und die
-Ruecknahmebedingungen. Jamie hat bestaetigt: keine Geld-zurueck-Garantie,
-daher steht im Schema MerchantReturnNotPermitted mit Verweis auf
-coach-chambers.de/widerruf/.
-
-Naechster Schritt in der Search Console: unter "Haendlereintraege" auf
-"Fehlerbehebung ueberpruefen" klicken.
-
-## Google Search Console, Produkt-Snippets der Guides
-
-Google meldet "Feld review fehlt" und "Feld aggregateRating fehlt".
-Beides sind Empfehlungen, keine Fehler. Sie verschwinden erst, wenn es
-echte Kaeuferbewertungen zu den beiden PDF-Guides gibt.
-
-Wichtig: Bewertungen duerfen nicht erfunden oder geschaetzt werden.
-Erfundene Bewertungen sind nach UWG Paragraf 5b Absatz 3 unzulaessig und
-Google entfernt die Rich Results dauerhaft, wenn so etwas auffaellt.
-
-Weg dorthin:
-1. Bei Digistore24 im Produkt die automatische Nachfass-Mail aktivieren,
-   die Kaeufer ein paar Tage nach dem Download um eine Rueckmeldung bittet.
-2. Kaeufer per Mail oder Instagram direkt fragen, wie der Guide war.
-3. Sobald echte Bewertungen mit Namen vorliegen, trage ich sie als
-   review beziehungsweise aggregateRating ins Schema ein. Dann zeigt
-   Google auch Sterne bei den Guides an.
+| Woche 1 bis 2 | Seiten erscheinen bei der Suche nach "Coach Chambers" und "CP Coaching" |
+| Woche 2 bis 4 | Unternehmensprofil erscheint in der Kartenansicht |
+| Monat 2 bis 3 | erste Platzierungen bei "hybrid training schwerte", dort ist der Wettbewerb praktisch null |
+| Monat 3 bis 6 | Chance auf vordere Plätze bei "personal trainer schwerte", abhängig von Bewertungen |
+
+SEO wirkt nicht in Tagen. Der Instagram-Funnel bringt schneller Anfragen,
+SEO ist das Fundament, das in einem halben Jahr trägt, ohne tägliches Posten.
