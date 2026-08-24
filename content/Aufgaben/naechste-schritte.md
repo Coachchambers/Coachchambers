@@ -205,3 +205,15 @@ Das Erstgespräch ist jetzt direkt buchbar über Nutrilize:
 - **Instagram-Bio:** Der Link zeigt auf `coach-chambers.de`. Das bleibt richtig, weil die Seite mehr zeigt als nur den Buchungskalender. Wenn du irgendwann zwei Links willst, erlaubt Instagram bis zu fünf.
 - **Google Unternehmensprofil:** Dort gibt es ein Feld **Termin vereinbaren** bzw. **Buchungslink**. Da gehört die Nutrilize-Adresse rein. Google zeigt daraufhin einen Terminbutton direkt im Suchergebnis, noch bevor jemand deine Website öffnet.
 - **Highlight „Preise":** Die letzte Story sagt „Antworte mit START". Sobald du magst, kann daraus ein Link-Sticker direkt auf die Buchungsseite werden. Das ist kein Umweg mehr, weil die Buchung etwas ist, das die Story selbst nicht kann.
+
+## Offene Frage zu den Digistore-Guides (Google Search Console)
+
+Google meldet bei den beiden PDF-Guides noch den nicht kritischen Hinweis
+"Feld hasMerchantReturnPolicy fehlt". Dafuer brauche ich eine Angabe von dir:
+
+- Ist bei Digistore24 fuer die beiden Produkte eine Geld-zurueck-Garantie aktiv?
+- Wenn ja, ueber wie viele Tage?
+
+Sobald das klar ist, trage ich die Ruecknahmebedingungen ins Schema ein.
+Ohne diese Angabe wird nichts eingetragen, weil eine erfundene Garantie
+sowohl wettbewerbsrechtlich als auch gegenueber Google ein Problem waere.
