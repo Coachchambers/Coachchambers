@@ -689,6 +689,15 @@ a { color: var(--terracotta); }
 .price-card .price small { font-size: 0.95rem; }
 .price-card .price-detail { font-size: 0.82rem; color: var(--muted); }
 
+.price-card .perk {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.78rem;
+  color: var(--teal);
+}
+
+.price-card.feat .perk { color: var(--terracotta-light); }
+
 .price-card .dm-hint {
   margin-top: 14px;
   padding-top: 12px;
