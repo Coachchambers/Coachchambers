@@ -302,6 +302,37 @@ Nutrilize-Buchungslink unter „Termine". WhatsApp-Nummer steht im Profil
 ohnehin für alle, die vorher noch fragen wollen, wer über Google direkt
 bucht, ist meistens schon entschieden.
 
+## Nachtrag 25.08.2026: Testwoche zurückgestuft, Rabatt bei Direktentscheid
+
+Auf Wunsch umgebaut: Die kostenlose Testwoche kostete echte Kapazität, egal
+ob am Ende bezahlt wurde, bei maximal 6 Plätzen gleichzeitig ein spürbarer
+Anteil der Zeit. Neu:
+
+- **Erstgespräch** steht jetzt allein oben, mit einem Hinweis direkt darunter:
+  „Schließt du direkt im Erstgespräch ab, sparst du 25 % auf den ersten
+  Monat, egal für welches Paket."
+- Die vier **Rabatt-Pakete** (1 bis 6 Monate) folgen unverändert darunter.
+- **Testwoche** steht jetzt ganz unten, klein und ohne Hervorhebung, mit
+  eigenem Hinweistext: „Nach dem Gespräch noch unsicher? Kein Problem, dann
+  reden wir einfach weiter, oder du fragst gezielt nach einem Paket. Wer
+  lieber erst ausprobiert, kann auch die Testwoche anfragen." Eigene
+  WhatsApp-Nachricht dafür, damit sie im Klick-Tracking als
+  `whatsapp-testwoche` separat auftaucht statt in `erstgespraech-anfrage`
+  mitzulaufen.
+
+Geändert auf der Startseite (eigener Block ganz unten in der Preissektion)
+und auf der Ernährungsseite (Testwoche steht dort als dritte, unauffällige
+Karte statt wie vorher gleichrangig neben dem Erstgespräch). FAQ-Antworten,
+Kontaktabsätze, `llms.txt` und das Google-Schema sind entsprechend
+umformuliert. Auf der Ernährungsseite wurde außerdem die Hero-Statistik
+„7 Tage Testwoche gratis" durch „25 % Rabatt bei Direktstart" ersetzt, damit
+die Kopfzeile nicht mehr mit der Gratiswoche wirbt.
+
+**Bewusst nicht ins Schema.org-Datenmodell aufgenommen:** der 25-%-Rabatt ist
+eine an Bedingungen geknüpfte Aktion (Entscheidung im Gespräch), keine
+dauerhafte Preisänderung. Die Angebotspreise im Schema bleiben die
+Listenpreise, der Rabatt wird nur im sichtbaren Text kommuniziert.
+
 ---
 
 ## Was realistisch wann passiert

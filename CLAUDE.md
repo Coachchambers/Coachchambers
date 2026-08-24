@@ -72,6 +72,13 @@ Schrift: Poppins für Überschriften und Fließtext, Georgia als Serifen-Akzent.
 - Die Erstgespräch-Nachricht enthält immer das Wort „Erstgespr…", darüber
   erkennt das Klick-Tracking in `js/main.js` diese Anfragen unabhängig vom
   Button-Ort als eigenes Ereignis `erstgespraech-anfrage`.
+- **Testwoche ist bewusst zurückgestuft**, seit 25.08.2026 ganz unten in der
+  Preissektion und ohne Hervorhebung. Wer sich direkt im Erstgespräch für ein
+  Paket entscheidet, bekommt **25 % Rabatt auf den ersten Monat** statt der
+  automatischen Gratiswoche. Die Testwoche bleibt als Option für alle, die
+  danach noch unsicher sind, eigene WhatsApp-Nachricht dafür, damit sie sich
+  im Klick-Tracking als `whatsapp-testwoche` von der Erstgespräch-Anfrage
+  unterscheidet.
 - Es steht bewusst **kein separater Telefonlink** auf der Seite.
   Wer anrufen will, macht das aus WhatsApp heraus. Ausnahme: Impressum und Widerruf.
 - Geschäftsnummer: **015233956300**, überall zeichengenau gleich.

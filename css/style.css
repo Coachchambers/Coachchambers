@@ -637,9 +637,14 @@ a { color: var(--terracotta); }
 
 /* ===== PRICING ===== */
 
-/* Oben die beiden kostenlosen Einstiege, darunter die vier Komplettpakete. */
-.pricing-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+/* Oben das Erstgespräch, darunter die vier Komplettpakete, ganz unten die Testwoche. */
+.pricing-start { max-width: 420px; margin: 0 auto; }
 .price-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 18px; }
+
+.pricing-discount { display: flex; justify-content: center; text-align: center; margin: 20px auto 0; max-width: 480px; }
+
+.pricing-testwoche { max-width: 380px; margin: 40px auto 0; }
+.pricing-testwoche .testwoche-lead { font-size: 0.9rem; color: var(--muted); line-height: 1.6; text-align: center; margin: 0 0 16px; }
 
 .price-card {
   background: var(--cream-2);
@@ -952,7 +957,6 @@ a { color: var(--terracotta); }
 
   .section-head { gap: 16px; margin-bottom: 40px; }
   .method-grid { grid-template-columns: 1fr; }
-  .pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .price-row { grid-template-columns: repeat(2, 1fr); }
   .testi-grid { grid-template-columns: 1fr; }
   .guides-grid { grid-template-columns: 1fr; }
@@ -965,7 +969,7 @@ a { color: var(--terracotta); }
   .section { padding: 72px 0; }
   .hero { padding-top: 56px; }
   .marquee { margin-top: 56px; }
-  .pricing-grid, .price-row { grid-template-columns: 1fr; }
+  .price-row { grid-template-columns: 1fr; }
   .testi-card { padding: 28px; }
   .app-shots { gap: 8px; }
   .phone { padding: 5px; border-radius: 16px; }
