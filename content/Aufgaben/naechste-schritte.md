@@ -207,17 +207,21 @@ eine Steuernummer oder Umsatzsteuer-ID rein.
 
 ### E3. Kapazitätsgrenze für die Website
 
-Im Rahmen der Offers-Analyse (Skill „offers", 24.08.) hast du bestätigt, dass
-es eine echte Grenze gibt, wie viele Klienten du gleichzeitig persönlich
-betreust. Die genaue Zahl fehlt noch.
+- [x] Zahl erhalten: maximal 6 Klientinnen und Klienten gleichzeitig
 
-- [ ] Sag mir die Zahl (aktuell betreute Klienten und die Obergrenze)
+Erledigt am 25.08.2026. Eingebaut ohne aggressive Countdown-Sprache, als
+ehrlicher Qualitätshinweis statt als Drucktaktik:
 
-Sobald die Zahl da ist, baue ich daraus einen ehrlichen Verknappungs-Hinweis
-bei den Paketen, zum Beispiel "Ich betreue aktuell X von Y Plätzen persönlich,
-um die Qualität zu halten". Ohne echte Zahl bleibt das absichtlich weg, eine
-erfundene Verknappung ist laut Skill-Vorgabe verboten und würde bei Nachfrage
-auffliegen.
+- Hero-Statistik auf der Startseite und der Personal-Training-Seite zeigt
+  jetzt „Max. 6, Klienten gleichzeitig" statt der vagen Angabe „1:1"
+- Im „Über mich"-Absatz auf der Startseite ergänzt: „Deshalb betreue ich
+  maximal sechs Klientinnen und Klienten gleichzeitig persönlich, damit
+  wirklich Zeit für jeden Einzelnen bleibt."
+- In `llms.txt` unter „Positionierung" ergänzt, für KI-Assistenten
+
+Bewusst **keine** Angabe zu aktuell freien Plätzen, die kenne ich nicht und
+sie würde auf einer statischen Seite ohnehin sofort veralten. Die Obergrenze
+allein reicht als ehrliches Signal.
 
 Bereits umgesetzt aus derselben Analyse: die Garantie ist jetzt als Trust-Badge
 direkt über den Preiskarten sichtbar (vorher erst ganz unten), eine FAQ-Frage
