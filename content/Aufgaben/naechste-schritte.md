@@ -35,9 +35,9 @@ und entfernt im Zweifel das ganze Profil.
 
 Profile mit Fotos werden deutlich häufiger angeklickt. Mindestens fünf.
 
-- [ ] Logo als Profilbild
-- [ ] Titelbild, du selbst, klar erkennbar
-- [ ] zwei bis drei echte Trainingssituationen
+- [x] Logo als Profilbild
+- [x] Titelbild, du selbst, klar erkennbar
+- [x] zwei bis drei echte Trainingssituationen
 
 **Nicht** das Vorher-Nachher-Foto von Denise hochladen. Auf der Website ist es
 abgesprochen und in Ordnung, bei Google verstößt es gegen die Richtlinien zu
@@ -45,11 +45,13 @@ Gesundheitsversprechen.
 
 ### A3. Search Console, Prüfung anstoßen
 
-- [ ] Search Console öffnen, Bereich **Händlereinträge**, auf
+- [x] Search Console öffnen, Bereich **Händlereinträge**, auf
       **Fehlerbehebung überprüfen** klicken
 
-Die vier gemeldeten Punkte sind seit dem 24.08. im Code behoben. Google crawlt
-nach dem Klick neu, Ergebnis kommt in ein paar Tagen.
+Die vier gemeldeten Punkte sind seit dem 24.08. im Code behoben, lokal nochmal
+geprüft: alle Felder korrekt, JSON-LD gültig. Ob Google es beim Neu-Crawl auch
+so abnimmt, zeigt sich in der Search Console selbst in den nächsten Tagen, das
+kann ich von hier aus nicht einsehen.
 
 ---
 
@@ -77,15 +79,21 @@ Dauert zwei Minuten. Der Grund: Bing liefert die Suchergebnisse für ChatGPT.
 
 ### B3. Buchungslink im Google-Profil prüfen
 
-- [ ] Im Profil unter **Termin vereinbaren** bzw. **Buchungslink** muss stehen:
+- [ ] Im Profil-Manager links auf **Termine** klicken, dort
+      **Link zur Terminvereinbarung hinzufügen** und einsetzen:
       `https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn`
+
+Das Feld sitzt nicht bei den normalen Kontaktdaten, sondern in einem eigenen
+Reiter. Falls „Termine" bei dir gar nicht auftaucht: Google schaltet das nicht
+für jede Kategorie frei, dann ist nichts falsch gemacht. Nicht kritisch, falls
+es fehlt, der Buchungsbutton steht schon prominent auf der Website.
 
 Google zeigt dann einen Terminbutton direkt im Suchergebnis, noch bevor jemand
 deine Website öffnet.
 
 ### B4. Google Ads Gutschein
 
-- [ ] Das Angebot über 400 Euro vorerst ablehnen
+- [x] Das Angebot über 400 Euro vorerst ablehnen
 
 Es ist ein Matching-Gutschein, du musst selbst 400 Euro ausgeben, um ihn zu
 bekommen. Anzeigen lohnen sich erst, wenn feststeht, dass Anfragen über die
@@ -101,7 +109,7 @@ Fertige Bildsets liegen in `content/Instagram_Highlights/`, jeweils mit Cover
 und Anleitung im Ordner.
 
 - [x] `Preise/`
-- [ ] `Kundinnen/`
+- [x] `Kundinnen/`
 - [ ] `Testwoche/`
 
 Ablauf: als Story hochladen, dann zum Highlight hinzufügen, Cover setzen.
@@ -122,8 +130,10 @@ eigenen Handlungsaufruf. Plan sind fünf Posts pro Woche, siehe
 
 Die beiden Cover liegen unter `images/guides/`.
 
-- [ ] `guide-pullup-cover.jpg` beim Produkt 720928 hinterlegen
-- [ ] `guide-ernaehrung-cover.jpg` beim Produkt 723624 hinterlegen
+- [ ] `guide-pullup-cover.jpg` beim Produkt **720928** hinterlegen (Pull-Up-Guide)
+- [ ] `guide-ernaehrung-cover.jpg` beim Produkt **723624** hinterlegen (Ernährungsguide)
+
+Beide Dateien liegen unter `images/guides/` im Repo.
 
 ### D2. Bewertungen der Guides ermöglichen
 
@@ -162,19 +172,29 @@ Ohne Einverständnis geht es nicht ins Netz. Eine kurze Nachricht mit
 
 ### E2. Steuernummer fürs Impressum
 
-- [ ] Steuernummer oder Umsatzsteuer-Identifikationsnummer nachreichen,
-      **oder** mir sagen, dass du Kleinunternehmer nach Paragraf 19 UStG bist
+- [x] Geklärt: Kleinunternehmer nach Paragraf 19 UStG, keine Umsatzsteuer
 
-Aktuell steht im Impressum bewusst gar nichts dazu. Das ist zulässig, solange
-keine Umsatzsteuer-ID existiert, denn Paragraf 5 DDG verlangt sie nur
-"soweit vorhanden". Sobald du eine hast, muss sie rein.
+Erledigt am 24.08.2026. Im Impressum steht jetzt "Gemäß § 19 UStG wird keine
+Umsatzsteuer berechnet." Falls sich das mal ändert, zum Beispiel weil du über
+die Kleinunternehmer-Grenze wächst, sofort Bescheid geben, dann muss stattdessen
+eine Steuernummer oder Umsatzsteuer-ID rein.
 
 ### E3. Verzeichniseinträge
 
-Vorbereitete Liste mit allen Daten in `content/Verzeichnisse/eintraege.md`.
-Jeder Eintrag ist ein Signal für die lokale Suche.
+Das sind kostenlose Branchenbücher im Netz, sieben Stück, jedes mit Name,
+Adresse, Telefon, Kategorie und einer kurzen Beschreibung von dir. Sie zählen
+für Google als zusätzliche Bestätigung, dass es dich wirklich gibt und die
+Angaben stimmen, das stärkt die Platzierung in der Kartenansicht.
+
+Fertiger Datensatz zum Kopieren, die beiden Beschreibungstexte und die Liste
+der sieben Verzeichnisse (ProvenExpert, Bing Places, Gelbe Seiten, Das
+Örtliche, 11880, Apple Business Connect, Yelp) liegen komplett vorbereitet in
+`content/Verzeichnisse/eintraege.md`. Du musst dort nur noch die Formulare
+ausfüllen, nichts selbst formulieren.
 
 - [ ] Einträge anlegen, dabei die **neue** Telefonnummer verwenden
+- [ ] Reihenfolge: ProvenExpert, Bing Places und Gelbe Seiten zuerst, den Rest
+      wann immer Zeit ist
 
 ---
 
