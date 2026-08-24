@@ -205,7 +205,27 @@ Umsatzsteuer berechnet." Falls sich das mal ändert, zum Beispiel weil du über
 die Kleinunternehmer-Grenze wächst, sofort Bescheid geben, dann muss stattdessen
 eine Steuernummer oder Umsatzsteuer-ID rein.
 
-### E3. Verzeichniseinträge
+### E3. Kapazitätsgrenze für die Website
+
+Im Rahmen der Offers-Analyse (Skill „offers", 24.08.) hast du bestätigt, dass
+es eine echte Grenze gibt, wie viele Klienten du gleichzeitig persönlich
+betreust. Die genaue Zahl fehlt noch.
+
+- [ ] Sag mir die Zahl (aktuell betreute Klienten und die Obergrenze)
+
+Sobald die Zahl da ist, baue ich daraus einen ehrlichen Verknappungs-Hinweis
+bei den Paketen, zum Beispiel "Ich betreue aktuell X von Y Plätzen persönlich,
+um die Qualität zu halten". Ohne echte Zahl bleibt das absichtlich weg, eine
+erfundene Verknappung ist laut Skill-Vorgabe verboten und würde bei Nachfrage
+auffliegen.
+
+Bereits umgesetzt aus derselben Analyse: die Garantie ist jetzt als Trust-Badge
+direkt über den Preiskarten sichtbar (vorher erst ganz unten), eine FAQ-Frage
+für Einsteiger ohne Trainingserfahrung ist ergänzt, und der laufende
+WhatsApp-Support während der Coaching-Pakete ist jetzt als Bonus auf den vier
+bezahlten Paketen sichtbar statt unausgesprochen.
+
+### E4. Verzeichniseinträge
 
 Das sind kostenlose Branchenbücher im Netz, sieben Stück, jedes mit Name,
 Adresse, Telefon, Kategorie und einer kurzen Beschreibung von dir. Sie zählen
@@ -221,6 +241,20 @@ ausfüllen, nichts selbst formulieren.
 - [ ] Einträge anlegen, dabei die **neue** Telefonnummer verwenden
 - [ ] Reihenfolge: ProvenExpert, Bing Places und Gelbe Seiten zuerst, den Rest
       wann immer Zeit ist
+
+### E5. Content-Strategie, Entscheidung gebraucht
+
+Vollständige Analyse mit der Skill „content-strategy" liegt in
+`content/Content_Strategie/plan.md`. Vier Themenfelder, zehn priorisierte
+Artikel-Ideen, sechs davon aus bereits geschriebenen Instagram-Posts
+abgeleitet, kein neuer Schreibaufwand nötig.
+
+- [ ] Lesen und entscheiden: Blog-Bereich auf der Website (Weg B, größter
+      SEO-Hebel), FAQ nur ausbauen (Weg A, kleiner Aufwand), oder bei
+      Instagram bleiben (Weg C, kein Website-Aufwand)
+
+Ich baue nichts davon ohne dein Okay, ein Blog ist eine laufende Verpflichtung
+für dich, keine einmalige Aufgabe.
 
 ---
 
