@@ -344,6 +344,19 @@ a { color: var(--terracotta); }
   margin: 0;
 }
 
+.trust-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(193, 104, 58, 0.1);
+  color: var(--terracotta);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
 /* ===== ABOUT ===== */
 
 .about-grid {
