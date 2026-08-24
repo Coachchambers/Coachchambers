@@ -279,6 +279,19 @@ Ist bereits als Instagram-Profilbild gesetzt.
 Kein akuter Handlungsbedarf, nur als Idee vorgemerkt, falls beim nächsten
 Website-Update Fotos getauscht werden.
 
+### E7. Testreels, neuer Plan bereit zur Prüfung
+
+Vollständiger Plan liegt in `content/Content_Strategie/testreels-plan.md`.
+Nutzt Instagrams Testreel-Funktion (nur für Nicht-Follower sichtbar, kein
+Risiko für den bestehenden Feed), zwei Content-Eimer: Alltags-Hacks (sechs
+fertige Ideen, vier davon aus bereits geschriebenen Posts abgeleitet) und
+positive, persönliche Momente (drei Ideen).
+
+- [ ] Lesen und prüfen, ob die Interpretation von „positives mit Brole"
+      passt (als „positive, persönliche Vorbild-Momente" gelesen, im Zweifel
+      korrigieren)
+- [ ] Erste ein bis zwei Hack-Ideen als Testreel ausprobieren
+
 ---
 
 ## Was erledigt ist
