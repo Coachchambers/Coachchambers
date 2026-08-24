@@ -40,10 +40,15 @@ Beschreibung und Kategorie stehen in dieser Datei weiter oben unter
 Bewertungen sind bei lokaler Suche der stärkste Ranking-Faktor. In Schwerte hat
 die Konkurrenz kaum welche, zwei bis drei echte Bewertungen bringen dich weit nach vorne.
 
-- [ ] Im Google Unternehmensprofil den Bewertungslink holen (`g.page/r/...`)
-- [ ] Link an **Kerstin S.** schicken
-- [ ] Link an **Denise** schicken
+- [x] Im Google Unternehmensprofil den Bewertungslink geholt
+      (`g.page/r/CbAH0S2YHjOCEBM/review`)
+- [x] Link an alle Kunden geschickt, nicht nur Kerstin und Denise. Einverständnis
+      von allen liegt vor.
 - [ ] Nach etwa einer Woche höchstens **eine** Erinnerung, dann Ruhe
+
+Bei einem plötzlichen Sprung von 0 auf mehrere Bewertungen an einem Tag prüft
+Google manchmal automatisiert etwas genauer. Kein Grund zur Sorge, das legt
+sich von selbst, solange die Bewertungen echt sind.
 
 Fertige Texte liegen in `content/Bewertungen/anfrage-texte.md`. Beide haben dir
 schon schriftlich Feedback gegeben, du bittest also nur darum, es dort einzutragen.
