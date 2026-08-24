@@ -22,10 +22,15 @@ Neu angelegt, jetzt läuft die Vervollständigung nochmal von vorn. Grunddaten,
 Beschreibung und Kategorie stehen in dieser Datei weiter oben unter
 „Aufgabe 1: Google Unternehmensprofil fertigstellen", die gelten unverändert.
 
-- [~] **Name korrigieren.** Änderung auf **CP Coaching** am 24.08. bei Google
-      beantragt, wartet auf Freigabe. Google prüft Namensänderungen manchmal
-      ein paar Tage, bis dahin kann noch „Coach Chambers Body Performance"
-      stehen. Nach der Freigabe hier abhaken.
+- [x] **Name korrigiert.** Google hat statt „CP Coaching" den Namen
+      **„Chambers Performance Coaching"** freigegeben. Das ist so gewollt und
+      bleibt so: beim Gewerbeamt ist „CP Chambers Performance Coaching"
+      registriert, Google verlangt den Namen wie im echten Geschäftsleben
+      verwendet, „Chambers Performance Coaching" liegt näher an der Vollform.
+      „CP Coaching" auf der Website ist die Kurzmarke davon, kein Widerspruch,
+      solange Adresse und Telefonnummer exakt gleich bleiben. Entschieden am
+      25.08.2026, absichtlich keine weitere Änderung angestoßen, jede
+      Namensänderung kann bei Google eine neue Prüfung auslösen.
 - [x] Öffnungszeiten auf „Nur nach Vereinbarung" gesetzt.
 - [ ] **Foto ersetzen.** Aktuell hängt ein Außenfoto vom Haus im Profil, zeigt
       indirekt die private Adresse. Bewusst zurückgestellt, kein Drängen.
