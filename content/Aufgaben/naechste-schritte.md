@@ -15,6 +15,31 @@ ein Foto, gib es mir, dann trage ich es auf der Website nach.
 
 ## A. Diese Woche, größter Hebel
 
+### A0. Google-Profil neu aufgesetzt, jetzt fertig machen
+
+Am 24.08. wurde aus Versehen das falsche Google-Unternehmensprofil gelöscht.
+Neu angelegt, jetzt läuft die Vervollständigung nochmal von vorn. Grunddaten,
+Beschreibung und Kategorie stehen in dieser Datei weiter oben unter
+„Aufgabe 1: Google Unternehmensprofil fertigstellen", die gelten unverändert.
+
+- [ ] **Name korrigieren.** Steht aktuell falsch als „Coach Chambers Body
+      Performance" (vermutlich aus dem Instagram-Handle übernommen). Unter
+      „Profil bearbeiten" auf **CP Coaching** ändern, exakt wie überall sonst.
+      Ein abweichender Name schwächt nicht nur die NAP-Konsistenz, zusätzliche
+      Wörter im Namensfeld verstoßen auch gegen Googles Richtlinien.
+- [ ] **Öffnungszeiten setzen.** Nicht leer lassen, sondern die Option
+      **„Nur nach Vereinbarung"** wählen, das passt ehrlich zum Geschäftsmodell
+      und schließt die Lücke im Vervollständigungs-Ring.
+- [ ] **Foto ersetzen.** Aktuell hängt ein Außenfoto vom Haus im Profil. Das
+      zeigt indirekt die private Adresse, obwohl die Adresse bewusst
+      ausgeblendet ist. Stattdessen die Trainingsfotos von der Website nutzen.
+- [x] Dienstleistungen eingetragen (Personal Training, Hybrid Training,
+      Krafttraining, Ausdauertraining, Mobility Training, Ernährungsberatung,
+      Online Coaching, Trainingsplanerstellung)
+- [x] Produkte eingetragen (beide Guides)
+- [ ] Buchungslink unter „Buchungen" prüfen: muss
+      `https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn` sein
+
 ### A1. Google-Bewertungen einsammeln
 
 Bewertungen sind bei lokaler Suche der stärkste Ranking-Faktor. In Schwerte hat
@@ -34,10 +59,11 @@ und entfernt im Zweifel das ganze Profil.
 ### A2. Fotos ins Google-Profil
 
 Profile mit Fotos werden deutlich häufiger angeklickt. Mindestens fünf.
+Durch die Neuanlage aktuell wieder offen, siehe A0.
 
-- [x] Logo als Profilbild
-- [x] Titelbild, du selbst, klar erkennbar
-- [x] zwei bis drei echte Trainingssituationen
+- [ ] Logo als Profilbild
+- [ ] Titelbild, du selbst, klar erkennbar
+- [ ] zwei bis drei echte Trainingssituationen
 
 **Nicht** das Vorher-Nachher-Foto von Denise hochladen. Auf der Website ist es
 abgesprochen und in Ordnung, bei Google verstößt es gegen die Richtlinien zu
