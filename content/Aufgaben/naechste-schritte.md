@@ -265,6 +265,20 @@ abgeleitet, kein neuer Schreibaufwand nötig.
 Ich baue nichts davon ohne dein Okay, ein Blog ist eine laufende Verpflichtung
 für dich, keine einmalige Aufgabe.
 
+### E6. Neues Profilfoto, offene Idee für später
+
+Am 25.08.2026 gemeinsam den Instagram-Auftritt durchgesehen. Neues
+Profilbild gewählt: das Foto am Trainingsgerät mit direktem Blick in die
+Kamera, klares Licht, deutlich stärker als das vorherige Beige-Filter-Foto.
+Ist bereits als Instagram-Profilbild gesetzt.
+
+- [ ] Später prüfen: dasselbe Foto (oder ein ähnliches mit direktem
+      Kamerablick) auch für die Website verwenden, zum Beispiel im
+      „Über mich"-Bereich oder als neues Hero-Bild
+
+Kein akuter Handlungsbedarf, nur als Idee vorgemerkt, falls beim nächsten
+Website-Update Fotos getauscht werden.
+
 ---
 
 ## Was erledigt ist
