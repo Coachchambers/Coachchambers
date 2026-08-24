@@ -130,8 +130,8 @@ eigenen Handlungsaufruf. Plan sind fünf Posts pro Woche, siehe
 
 Die beiden Cover liegen unter `images/guides/`.
 
-- [ ] `guide-pullup-cover.jpg` beim Produkt **720928** hinterlegen (Pull-Up-Guide)
-- [ ] `guide-ernaehrung-cover.jpg` beim Produkt **723624** hinterlegen (Ernährungsguide)
+- [x] `guide-pullup-cover.jpg` beim Produkt **720928** hinterlegen (Pull-Up-Guide)
+- [x] `guide-ernaehrung-cover.jpg` beim Produkt **723624** hinterlegen (Ernährungsguide)
 
 Beide Dateien liegen unter `images/guides/` im Repo.
 
