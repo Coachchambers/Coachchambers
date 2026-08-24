@@ -22,23 +22,18 @@ Neu angelegt, jetzt läuft die Vervollständigung nochmal von vorn. Grunddaten,
 Beschreibung und Kategorie stehen in dieser Datei weiter oben unter
 „Aufgabe 1: Google Unternehmensprofil fertigstellen", die gelten unverändert.
 
-- [ ] **Name korrigieren.** Steht aktuell falsch als „Coach Chambers Body
-      Performance" (vermutlich aus dem Instagram-Handle übernommen). Unter
-      „Profil bearbeiten" auf **CP Coaching** ändern, exakt wie überall sonst.
-      Ein abweichender Name schwächt nicht nur die NAP-Konsistenz, zusätzliche
-      Wörter im Namensfeld verstoßen auch gegen Googles Richtlinien.
-- [ ] **Öffnungszeiten setzen.** Nicht leer lassen, sondern die Option
-      **„Nur nach Vereinbarung"** wählen, das passt ehrlich zum Geschäftsmodell
-      und schließt die Lücke im Vervollständigungs-Ring.
-- [ ] **Foto ersetzen.** Aktuell hängt ein Außenfoto vom Haus im Profil. Das
-      zeigt indirekt die private Adresse, obwohl die Adresse bewusst
-      ausgeblendet ist. Stattdessen die Trainingsfotos von der Website nutzen.
+- [~] **Name korrigieren.** Änderung auf **CP Coaching** am 24.08. bei Google
+      beantragt, wartet auf Freigabe. Google prüft Namensänderungen manchmal
+      ein paar Tage, bis dahin kann noch „Coach Chambers Body Performance"
+      stehen. Nach der Freigabe hier abhaken.
+- [x] Öffnungszeiten auf „Nur nach Vereinbarung" gesetzt.
+- [ ] **Foto ersetzen.** Aktuell hängt ein Außenfoto vom Haus im Profil, zeigt
+      indirekt die private Adresse. Bewusst zurückgestellt, kein Drängen.
 - [x] Dienstleistungen eingetragen (Personal Training, Hybrid Training,
       Krafttraining, Ausdauertraining, Mobility Training, Ernährungsberatung,
       Online Coaching, Trainingsplanerstellung)
 - [x] Produkte eingetragen (beide Guides)
-- [ ] Buchungslink unter „Buchungen" prüfen: muss
-      `https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn` sein
+- [x] Buchungslink unter „Buchungen" geprüft, korrekt
 
 ### A1. Google-Bewertungen einsammeln
 
