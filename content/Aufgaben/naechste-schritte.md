@@ -216,3 +216,21 @@ coach-chambers.de/widerruf/.
 
 Naechster Schritt in der Search Console: unter "Haendlereintraege" auf
 "Fehlerbehebung ueberpruefen" klicken.
+
+## Google Search Console, Produkt-Snippets der Guides
+
+Google meldet "Feld review fehlt" und "Feld aggregateRating fehlt".
+Beides sind Empfehlungen, keine Fehler. Sie verschwinden erst, wenn es
+echte Kaeuferbewertungen zu den beiden PDF-Guides gibt.
+
+Wichtig: Bewertungen duerfen nicht erfunden oder geschaetzt werden.
+Erfundene Bewertungen sind nach UWG Paragraf 5b Absatz 3 unzulaessig und
+Google entfernt die Rich Results dauerhaft, wenn so etwas auffaellt.
+
+Weg dorthin:
+1. Bei Digistore24 im Produkt die automatische Nachfass-Mail aktivieren,
+   die Kaeufer ein paar Tage nach dem Download um eine Rueckmeldung bittet.
+2. Kaeufer per Mail oder Instagram direkt fragen, wie der Guide war.
+3. Sobald echte Bewertungen mit Namen vorliegen, trage ich sie als
+   review beziehungsweise aggregateRating ins Schema ein. Dann zeigt
+   Google auch Sterne bei den Guides an.
