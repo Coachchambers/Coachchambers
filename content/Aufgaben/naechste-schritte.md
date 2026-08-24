@@ -292,11 +292,10 @@ Kontaktbereich sind entsprechend umformuliert, ebenso `llms.txt` und das
 Schema für Google. Das Klick-Tracking erkennt Erstgespräch-Anfragen jetzt
 unabhängig vom Button-Ort als eigenes Ereignis `erstgespraech-anfrage`.
 
-**Offene Frage an dich:** Im Google-Unternehmensprofil ist unter „Termine"
-weiterhin der direkte Nutrilize-Link hinterlegt (siehe A0). Soll der genauso
-auf WhatsApp umgestellt werden, damit du auch dort jede Anfrage zuerst
-persönlich siehst, oder soll er als direkter Buchungslink bleiben, weil
-jemand, der über Google sucht, schon entschiedener ist?
+**Entschieden am 25.08.2026:** Google-Profil bleibt beim direkten
+Nutrilize-Buchungslink unter „Termine". WhatsApp-Nummer steht im Profil
+ohnehin für alle, die vorher noch fragen wollen, wer über Google direkt
+bucht, ist meistens schon entschieden.
 
 ---
 
