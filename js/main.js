@@ -54,10 +54,10 @@
 
   function label(el) {
     var href = el.getAttribute("href") || "";
-    if (href.indexOf("nutrilize") > -1) return ["erstgespraech-buchen", "Klick auf Erstgespräch buchen"];
     if (href.indexOf("720928") > -1) return ["guide-pullup", "Klick auf Pull-Up Guide"];
     if (href.indexOf("723624") > -1) return ["guide-ernaehrung", "Klick auf Ernährungs-Guide"];
     if (href.indexOf("wa.me") > -1) {
+      if (href.indexOf("Erstgespr") > -1) return ["erstgespraech-anfrage", "WhatsApp-Anfrage zum Erstgespräch"];
       var karte = el.closest(".price-card");
       if (karte) {
         var t = karte.querySelector("h3");

@@ -264,11 +264,35 @@ Website komplett, drei Landingpages, Impressum, Datenschutz, Widerruf, eigene
 Domain mit HTTPS, Preis-Schema für Google und KI-Assistenten, beide Guides
 verlinkt, echte Kundenstimmen, robots.txt, llms.txt, sitemap.xml,
 Search Console mit eingereichter Sitemap, GoatCounter ohne Cookies,
-Online-Terminbuchung über Nutrilize, WhatsApp Business mit vorformulierter
-Frage je Angebot, Produktdaten der Guides für Google.
+WhatsApp Business mit vorformulierter Frage je Angebot, inklusive Erstgespräch
+(seit 25.08.2026, siehe unten), Produktdaten der Guides für Google.
 
 Im Google-Profil erledigt: Bestätigung, Dienstleistungen korrigiert,
 Beschreibung eingetragen, Telefonnummer.
+
+---
+
+## Nachtrag 25.08.2026: Erstgespräch läuft jetzt über WhatsApp
+
+Bisher führte der „Erstgespräch"-Button überall direkt auf die
+Nutrilize-Buchungsseite, ohne dass vorher Kontakt entstand. Auf Wunsch
+geändert: Der Button öffnet jetzt WhatsApp mit einer vorformulierten
+Nachricht, genau wie bei den bezahlten Paketen. Coach Chambers bekommt so
+jede Anfrage persönlich mit und schickt den Kalenderlink erst danach selbst,
+statt dass jeder ungefiltert bucht.
+
+Geändert auf allen drei Seiten: Navigation, Hero, beide Preiskarten
+(Erstgespräch und Testwoche), der Button unter den Preisen und der
+Kontaktbereich. Die FAQ-Antworten „Wie starte ich?" und die Absätze im
+Kontaktbereich sind entsprechend umformuliert, ebenso `llms.txt` und das
+Schema für Google. Das Klick-Tracking erkennt Erstgespräch-Anfragen jetzt
+unabhängig vom Button-Ort als eigenes Ereignis `erstgespraech-anfrage`.
+
+**Offene Frage an dich:** Im Google-Unternehmensprofil ist unter „Termine"
+weiterhin der direkte Nutrilize-Link hinterlegt (siehe A0). Soll der genauso
+auf WhatsApp umgestellt werden, damit du auch dort jede Anfrage zuerst
+persönlich siehst, oder soll er als direkter Buchungslink bleiben, weil
+jemand, der über Google sucht, schon entschiedener ist?
 
 ---
 

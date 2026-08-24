@@ -63,10 +63,15 @@ Schrift: Poppins für Überschriften und Fließtext, Georgia als Serifen-Akzent.
 
 ## Kontaktwege auf der Seite
 
-- **Erstgespräch** führt immer auf die Nutrilize-Buchungsseite
-  `https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn`.
-- **Alle bezahlten Pakete** führen auf WhatsApp Business,
+- **Erstgespräch und alle bezahlten Pakete** führen auf WhatsApp Business,
   `https://wa.me/4915233956300?text=...` mit einer vorformulierten Frage je Angebot.
+  Seit 25.08.2026 bewusst so: Coach Chambers will den Erstkontakt persönlich
+  führen und schickt den Nutrilize-Kalenderlink
+  (`https://portal.nutrilize.app/appointment/Dg7oV1jcnwQIzPyNgyOn`) danach
+  selbst, statt dass jeder ungefiltert direkt bucht.
+- Die Erstgespräch-Nachricht enthält immer das Wort „Erstgespr…", darüber
+  erkennt das Klick-Tracking in `js/main.js` diese Anfragen unabhängig vom
+  Button-Ort als eigenes Ereignis `erstgespraech-anfrage`.
 - Es steht bewusst **kein separater Telefonlink** auf der Seite.
   Wer anrufen will, macht das aus WhatsApp heraus. Ausnahme: Impressum und Widerruf.
 - Geschäftsnummer: **015233956300**, überall zeichengenau gleich.
