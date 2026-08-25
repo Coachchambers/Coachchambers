@@ -285,11 +285,12 @@ Vollständiger Plan liegt in `content/Content_Strategie/testreels-plan.md`.
 Nutzt Instagrams Testreel-Funktion (nur für Nicht-Follower sichtbar, kein
 Risiko für den bestehenden Feed), zwei Content-Eimer: Alltags-Hacks (sechs
 fertige Ideen, vier davon aus bereits geschriebenen Posts abgeleitet) und
-positive, persönliche Momente (drei Ideen).
+positive, persönliche Momente (drei Ideen). Produktionsweise für beide:
+Erklärung als Sprache drüber, dazu b-Roll im Hintergrund, kein Talking-Head.
+Fehlt passendes Video, trägt die Erklärung auch ohne.
 
-- [ ] Lesen und prüfen, ob die Interpretation von „positives mit Brole"
-      passt (als „positive, persönliche Vorbild-Momente" gelesen, im Zweifel
-      korrigieren)
+- [x] Interpretation korrigiert: „Brole" war b-Roll gemeint (Hintergrundvideo
+      zur Erklärung), nicht „Vorbild-Rolle"
 - [ ] Erste ein bis zwei Hack-Ideen als Testreel ausprobieren
 
 ---

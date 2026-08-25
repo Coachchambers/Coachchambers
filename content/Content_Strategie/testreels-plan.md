@@ -49,6 +49,19 @@ Ordnen sich in die vier Themenfelder aus dem Content-Plan ein, nur im
 6. **„Dein Handy-Wecker ist der einfachste Zone-2-Coach."** Praktischer Trick
    ohne Zusatzgerät. Pillar: Technik, Anschluss an `Post_Zone2_Ausdauer`.
 
+## Produktionsweise: Erklärung mit b-Roll
+
+Beide Eimer laufen über dasselbe Prinzip: du sprichst die Erklärung ein
+(direkt in die Kamera oder als Voiceover), im Hintergrund läuft dazu
+passendes b-Roll-Material, also kurze Trainingsausschnitte statt eines
+starren Sprecher-Bilds. Bewegtes Bild hält die Aufmerksamkeit länger als ein
+Talking-Head-Clip.
+
+**Wenn kein passendes Video da ist, einfach ohne drehen.** Die Erklärung
+trägt auch ohne exakt passendes b-Roll, ein neutraler Trainingsausschnitt
+oder gar kein Hintergrundwechsel ist besser als eine Idee liegen zu lassen,
+nur weil das perfekte Bild dazu fehlt.
+
 ## Eimer 2: Positive, persönliche Momente
 
 Kein Hochglanz, keine Inszenierung, das ist hier der Punkt. Näher an „echt
@@ -92,6 +105,6 @@ vorkommen soll, erst fragen, dann drehen, nicht umgekehrt.
 - **Baut auf Vorhandenem auf:** vier von sechs Hack-Ideen sind direkte
   Kurzfassungen bereits geschriebener Instagram-Posts, kein neuer
   Recherche-Aufwand.
-- **Offene Interpretation:** „positives mit Brole" wurde als „positive,
-  persönliche Vorbild-Momente" gelesen. Falls etwas anderes gemeint war,
-  bitte kurz korrigieren, dann passe ich Eimer 2 an.
+- **Korrigiert am 26.08.2026:** „Brole" war b-Roll gemeint, also
+  Hintergrundvideo zur gesprochenen Erklärung, keine inhaltliche Kategorie.
+  Entsprechend als eigener Produktionshinweis ergänzt statt als Eimer-Thema.
