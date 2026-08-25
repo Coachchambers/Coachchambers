@@ -101,10 +101,7 @@ stehen, Google gleicht Name, Adresse und Telefon über Quellen hinweg ab.
 
 ### B2. Bing Webmaster Tools
 
-https://www.bing.com/webmasters
-
-- [ ] Mit dem Google-Konto anmelden und die Search Console importieren
-- [ ] Sitemap eintragen: `https://coach-chambers.de/sitemap.xml`
+- [x] Erledigt
 
 Dauert zwei Minuten. Der Grund: Bing liefert die Suchergebnisse für ChatGPT.
 
@@ -172,6 +169,9 @@ Google meldet bei den Guides "Feld review fehlt" und "Feld aggregateRating fehlt
 Das sind Empfehlungen, keine Fehler, die Guides werden weiter normal angezeigt.
 Sie verschwinden erst mit echten Käuferbewertungen.
 
+**Bewusst zurückgestellt bis zum ersten Verkauf**, macht vorher ohnehin
+keinen Sinn, es gibt noch keine Käufer zum Nachfassen.
+
 - [ ] Bei beiden Produkten die automatische Nachfass-Mail aktivieren, die
       Käufer ein paar Tage nach dem Download um Rückmeldung bittet
 - [ ] Bei bekannten Käufern direkt nachfragen
@@ -181,6 +181,8 @@ und Google zeigt Sterne. Erfundene Bewertungen sind nach Paragraf 5b Absatz 3
 UWG unzulässig und Google entfernt die Rich Results dauerhaft, wenn es auffällt.
 
 ### D3. E-Mail-Adressen exportieren
+
+Ebenfalls zurückgestellt bis zum ersten Verkauf, aus demselben Grund.
 
 - [ ] Käuferliste exportieren, damit die Adressen nicht nur bei Digistore liegen
 
@@ -250,6 +252,12 @@ ausfüllen, nichts selbst formulieren.
 - [ ] Einträge anlegen, dabei die **neue** Telefonnummer verwenden
 - [ ] Reihenfolge: ProvenExpert, Bing Places und Gelbe Seiten zuerst, den Rest
       wann immer Zeit ist
+
+**Wichtig zum Feld „Inhaber", am 26.08.2026 ergänzt:** Nicht überall
+öffentlich sichtbar eintragen, das würde gegen die Regel verstoßen, dass
+dein Vorname nicht öffentlich auftaucht. Details und Vorgehen stehen jetzt
+direkt in `content/Verzeichnisse/eintraege.md`, bei jedem Verzeichnis vorher
+prüfen, ob das Feld auf der öffentlichen Seite landet.
 
 ### E5. Content-Strategie, Entscheidung gebraucht
 

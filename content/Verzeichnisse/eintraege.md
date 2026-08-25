@@ -8,11 +8,31 @@ Google gleicht ab, ob Name, Adresse und Telefonnummer über verschiedene Quellen
 
 ---
 
+## Wichtig zum Feld „Inhaber": nicht überall öffentlich sichtbar eintragen
+
+Dein Vorname darf öffentlich nicht auftauchen, das gilt hier genauso wie auf
+der Website. Das Problem: „Inhaber" ist bei vielen Verzeichnissen ein
+Pflichtfeld zur internen Verifizierung, wird aber nicht bei jedem auch auf
+der öffentlichen Profilseite angezeigt. Das unterscheidet sich pro Anbieter.
+
+**So gehst du vor, bei jedem einzelnen Verzeichnis:**
+- Vor dem Absenden prüfen, ob das Feld als „öffentlich sichtbar" markiert
+  ist oder eine Vorschau der fertigen Seite zeigt.
+- Bietet das Verzeichnis ein separates Feld „Ansprechpartner" oder
+  „Kontaktperson" für die öffentliche Seite an, dort **Coach Chambers**
+  eintragen, nicht den echten Namen.
+- Der echte Name ins reine Verifizierungsfeld einzutragen ist unkritisch,
+  solange es nicht auf der Seite selbst erscheint, die jeder sehen kann.
+- Bist du unsicher, ob ein Feld öffentlich landet: leer lassen oder
+  „Coach Chambers" eintragen, dann später bei Bedarf nachbessern statt
+  vorher raten.
+
 ## Der Datensatz zum Kopieren
 
 ```
 Name:            CP Coaching
-Inhaber:         Jamie Heintze
+Ansprechpartner: Coach Chambers (nur falls ein Feld dafür angeboten wird)
+Inhaber intern:  Jamie Heintze (nur für Verifizierung, nicht öffentlich)
 Straße:          Auf der Ostenheide 17
 PLZ, Ort:        58239 Schwerte
 Land:            Deutschland
