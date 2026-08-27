@@ -150,6 +150,24 @@ eigenen Handlungsaufruf. Plan sind fünf Posts pro Woche, siehe
 
 - [ ] Wochenplan festlegen und die ersten fünf Posts einplanen
 
+### C3. Zwei neue Karussells fertig, bereit zum Hochladen
+
+Am 26./27.08.2026 erstellt, im Foto-Stil von @fighters.facts, aber mit
+echten eigenen Trainingsfotos statt KI-Bildern und in Markenfarben:
+
+- `content/Karussell_Ernaehrung_Training/` — „3 Gründe, warum dein
+  Ernährungsplan dein Training ausbremst", 6 Slides, Text schon vorhanden,
+  nur neu bebildert
+- `content/Karussell_Kreatin/` — „7 Gründe, warum Kreatin nicht nur für
+  Bodybuilder ist", 9 Slides, neuer Inhalt. Bewusst **nicht** „7
+  Nebenwirkungen" wie die Vorlage, das Wort wäre sachlich falsch für
+  positive Effekte. Inhalte sind allgemein anerkanntes Wissen zu
+  Kreatin-Monohydrat, keine Studienzitate, keine Dosierungsempfehlung,
+  Hinweis bei mentaler Ermüdung ausdrücklich als vorläufige Forschung
+  gekennzeichnet.
+
+- [ ] Beide ansehen und hochladen, Reihenfolge nach eigenem Ermessen
+
 ---
 
 ## D. Digistore24
