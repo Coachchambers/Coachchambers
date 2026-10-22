@@ -838,6 +838,7 @@ a { color: var(--terracotta); }
 .testi-avatar { width: 46px; height: 46px; border-radius: 50%; background: linear-gradient(155deg, var(--teal), var(--terracotta)); flex-shrink: 0; }
 .testi-name { font-weight: 700; font-size: 0.92rem; color: var(--teal-deep); }
 .testi-meta { font-size: 0.78rem; color: var(--muted); }
+.testi-stars { color: var(--terracotta); font-size: 0.82rem; letter-spacing: 1px; margin-right: 6px; }
 
 .testi-stat { margin-top: 22px; display: flex; gap: 14px; align-items: center; background: var(--cream); border-radius: 16px; padding: 14px 18px; }
 .testi-stat .from { font-family: var(--serif); font-size: 1.15rem; color: #8a8a80; text-decoration: line-through; }
